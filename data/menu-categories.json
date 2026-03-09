@@ -1,0 +1,54 @@
+[
+  {
+    "id": "soup-salad",
+    "display_name": "Soup & Salad"
+  },
+  {
+    "id": "kitchen-appetizer",
+    "display_name": "Kitchen Appetizer"
+  },
+  {
+    "id": "sushi-appetizer",
+    "display_name": "Sushi Appetizer"
+  },
+  {
+    "id": "noodles",
+    "display_name": "Noodles"
+  },
+  {
+    "id": "kitchen-entree",
+    "display_name": "Kitchen Entree"
+  },
+  {
+    "id": "nigiri-sashimi",
+    "display_name": "Nigiri & Sashimi"
+  },
+  {
+    "id": "sushi-entree",
+    "display_name": "Sushi Entree"
+  },
+  {
+    "id": "specialty-roll",
+    "display_name": "Specialty Roll"
+  },
+  {
+    "id": "classic-roll",
+    "display_name": "Classic Roll"
+  },
+  {
+    "id": "lunch-special",
+    "display_name": "Lunch Special"
+  },
+  {
+    "id": "bento-box",
+    "display_name": "Bento Box"
+  },
+  {
+    "id": "fried-rice",
+    "display_name": "Fried Rice"
+  },
+  {
+    "id": "dessert",
+    "display_name": "Dessert"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "miso-soup",
+    "name": "Miso Soup",
+    "slug": "miso-soup",
+    "category": "soup_salad",
+    "subcategory": null,
+    "pieces": null,
+    "single_order_price": 2.5,
+    "currency": "USD",
+    "ayce_available": true,
+    "ayce_tiers": [
+      "premium",
+      "supreme"
+    ],
+    "ayce_note": "Included in all-you-can-eat unless otherwise noted",
+    "description_raw": "",
+    "short_description": "",
+    "ingredients": [],
+    "inferred_ingredients": [],
+    "sauces": [],
+    "allergens": [
+      "soy_possible"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "cooked_only"
+    ],
+    "feature_tags": [
+      "ayce_premium",
+      "ayce_supreme"
+    ],
+    "protein_tags": [],
+    "texture_tags": [],
+    "flavor_tags": [],
+    "cooking_method": "",
+    "is_raw": false,
+    "is_spicy": false,
+    "is_vegetarian": true,
+    "is_gluten_free": null,
+    "beginner_friendly": true,
+    "recommendation": "A good choice if you prefer cooked options.",
+    "history_note": "",
+    "image": "",
+    "source_refs": [],
+    "confidence": "high",
+    "needs_review": false,
+    "review_notes": ""
+  },
+  {
+    "id": "clear-soup",
+    "name": "Clear Soup",
+    "slug": "clear-soup",
+    "category": "soup_salad",
+    "subcategory": null,
+    "pieces": null,
+    "single_order_price": 2.5,
+    "currency": "USD",
+    "ayce_available": false,
+    "ayce_tiers": [],
+    "ayce_note": "",
+    "description_raw": "",
+    "short_description": "",
+    "ingredients": [],
+    "inferred_ingredients": [],
+    "sauces": [],
+    "allergens": [
+      "soy_possible"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "cooked_only"
+    ],
+    "feature_tags": [],
+    "protein_tags": [],
+    "texture_tags": [],
+    "flavor_tags": [],
+    "cooking_method": "",
+    "is_raw": false,
+    "is_spicy": false,
+    "is_vegetarian": true,
+    "is_gluten_free": null,
+    "beginner_friendly": true,
+    "recommendation": "A good choice if you prefer cooked options.",
+    "history_note": "",
+    "image": "",
+    "source_refs": [],
+    "confidence": "high",
+    "needs_review": false,
+    "review_notes": ""
+  }
+]
