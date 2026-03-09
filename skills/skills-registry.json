@@ -1,0 +1,16 @@
+{
+  "skills": [
+    {
+      "name": "menu-copy-writer",
+      "description": "Generate high-quality restaurant menu descriptions"
+    },
+    {
+      "name": "menu-tagging-engine",
+      "description": "Generate structured menu tags and attributes"
+    },
+    {
+      "name": "menu-quality-auditor",
+      "description": "Audit menu entries for quality issues"
+    }
+  ]
+}

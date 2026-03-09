@@ -1,0 +1,455 @@
+# Menu Image Manifest
+
+## appetizers
+- Wasabi Shrimp
+  - slug: wasabi-shrimp
+  - path: /menu/appetizers/wasabi-shrimp.jpg
+  - status: missing
+- Fried Calamari
+  - slug: fried-calamari
+  - path: /menu/appetizers/fried-calamari.jpg
+  - status: missing
+- Jalapeño Yellowtail
+  - slug: jalapeo-yellowtail
+  - path: /menu/appetizers/jalapeo-yellowtail.jpg
+  - status: missing
+- Edamame Bean
+  - slug: edamame-bean
+  - path: /menu/appetizers/edamame-bean.jpg
+  - status: missing
+- Spring Roll
+  - slug: spring-roll
+  - path: /menu/appetizers/spring-roll.jpg
+  - status: missing
+- Age Tofu
+  - slug: age-tofu
+  - path: /menu/appetizers/age-tofu.jpg
+  - status: missing
+- Shrimp Shumai Dumplings
+  - slug: shrimp-shumai-dumplings
+  - path: /menu/appetizers/shrimp-shumai-dumplings.jpg
+  - status: missing
+- Gyoza Dumplings
+  - slug: gyoza-dumplings
+  - path: /menu/appetizers/gyoza-dumplings.jpg
+  - status: missing
+- Vegetable Tempura
+  - slug: vegetable-tempura
+  - path: /menu/appetizers/vegetable-tempura.jpg
+  - status: missing
+- Chicken Tempura
+  - slug: chicken-tempura
+  - path: /menu/appetizers/chicken-tempura.jpg
+  - status: missing
+- Shrimp Tempura
+  - slug: shrimp-tempura
+  - path: /menu/appetizers/shrimp-tempura.jpg
+  - status: missing
+- Crab Rangoon
+  - slug: crab-rangoon
+  - path: /menu/appetizers/crab-rangoon.jpg
+  - status: missing
+- Takoyaki Ball
+  - slug: takoyaki-ball
+  - path: /menu/appetizers/takoyaki-ball.jpg
+  - status: missing
+- Tuna Tataki
+  - slug: tuna-tataki
+  - path: /menu/appetizers/tuna-tataki.jpg
+  - status: missing
+
+## condiments
+- Soy Sauce
+  - slug: soy-sauce
+  - path: /menu/condiments/soy-sauce.jpg
+  - status: missing
+- Low Sodium Soy Sauce
+  - slug: low-sodium-soy-sauce
+  - path: /menu/condiments/low-sodium-soy-sauce.jpg
+  - status: missing
+- Gluten-Free Soy Sauce
+  - slug: gluten-free-soy-sauce
+  - path: /menu/condiments/gluten-free-soy-sauce.jpg
+  - status: missing
+- Sriracha
+  - slug: sriracha
+  - path: /menu/condiments/sriracha.jpg
+  - status: missing
+- Spicy Mayo
+  - slug: spicy-mayo
+  - path: /menu/condiments/spicy-mayo.jpg
+  - status: missing
+- Eel Mayo
+  - slug: eel-mayo
+  - path: /menu/condiments/eel-mayo.jpg
+  - status: missing
+- Yum Yum Sauce
+  - slug: yum-yum-sauce
+  - path: /menu/condiments/yum-yum-sauce.jpg
+  - status: missing
+
+## dessert
+- Mochi Ice Cream
+  - slug: mochi-ice-cream
+  - path: /menu/dessert/mochi-ice-cream.jpg
+  - status: missing
+
+## hibachi
+- Hibachi Teriyaki Filet Mignon
+  - slug: hibachi-teriyaki-filet-mignon
+  - path: /menu/hibachi/hibachi-teriyaki-filet-mignon.jpg
+  - status: missing
+- Hibachi Teriyaki Scallop
+  - slug: hibachi-teriyaki-scallop
+  - path: /menu/hibachi/hibachi-teriyaki-scallop.jpg
+  - status: missing
+- Hibachi/Teriyaki Steak
+  - slug: hibachi-teriyaki-steak
+  - path: /menu/hibachi/hibachi-teriyaki-steak.jpg
+  - status: missing
+- Hibachi/Teriyaki Vegetable
+  - slug: hibachi-teriyaki-vegetable
+  - path: /menu/hibachi/hibachi-teriyaki-vegetable.jpg
+  - status: missing
+- Hibachi/Teriyaki Chicken
+  - slug: hibachi-teriyaki-chicken
+  - path: /menu/hibachi/hibachi-teriyaki-chicken.jpg
+  - status: missing
+- Hibachi/Teriyaki Shrimp
+  - slug: hibachi-teriyaki-shrimp
+  - path: /menu/hibachi/hibachi-teriyaki-shrimp.jpg
+  - status: missing
+- Katsu Chicken
+  - slug: katsu-chicken
+  - path: /menu/hibachi/katsu-chicken.jpg
+  - status: missing
+
+## nigiri
+- Avocado
+  - slug: avocado
+  - path: /menu/nigiri/avocado.jpg
+  - status: missing
+- Saba (Mackerel)
+  - slug: saba-mackerel
+  - path: /menu/nigiri/saba-mackerel.jpg
+  - status: missing
+- Tamago (Egg)
+  - slug: tamago-egg
+  - path: /menu/nigiri/tamago-egg.jpg
+  - status: missing
+- Kani (Crab)
+  - slug: kani-crab
+  - path: /menu/nigiri/kani-crab.jpg
+  - status: missing
+- Inari (Tofu Skin)
+  - slug: inari-tofu-skin
+  - path: /menu/nigiri/inari-tofu-skin.jpg
+  - status: missing
+- Ebi (Shrimp)
+  - slug: ebi-shrimp
+  - path: /menu/nigiri/ebi-shrimp.jpg
+  - status: missing
+- Sake (Salmon)
+  - slug: sake-salmon
+  - path: /menu/nigiri/sake-salmon.jpg
+  - status: missing
+- Tai (Tilapia)
+  - slug: tai-tilapia
+  - path: /menu/nigiri/tai-tilapia.jpg
+  - status: missing
+- Tuna
+  - slug: tuna
+  - path: /menu/nigiri/tuna.jpg
+  - status: missing
+- Escolar (White Tuna)
+  - slug: escolar-white-tuna
+  - path: /menu/nigiri/escolar-white-tuna.jpg
+  - status: missing
+- Smoked Salmon
+  - slug: smoked-salmon
+  - path: /menu/nigiri/smoked-salmon.jpg
+  - status: missing
+- Hamachi
+  - slug: hamachi
+  - path: /menu/nigiri/hamachi.jpg
+  - status: missing
+- Unagi (Eel)
+  - slug: unagi-eel
+  - path: /menu/nigiri/unagi-eel.jpg
+  - status: missing
+
+## noodles
+- Yakisoba Vegetable
+  - slug: yakisoba-vegetable
+  - path: /menu/noodles/yakisoba-vegetable.jpg
+  - status: missing
+- Yakisoba Steak
+  - slug: yakisoba-steak
+  - path: /menu/noodles/yakisoba-steak.jpg
+  - status: missing
+- Yakisoba Chicken
+  - slug: yakisoba-chicken
+  - path: /menu/noodles/yakisoba-chicken.jpg
+  - status: missing
+- Yakisoba Shrimp
+  - slug: yakisoba-shrimp
+  - path: /menu/noodles/yakisoba-shrimp.jpg
+  - status: missing
+
+## rice
+- Fried Rice
+  - slug: fried-rice
+  - path: /menu/rice/fried-rice.jpg
+  - status: missing
+- White Rice
+  - slug: white-rice
+  - path: /menu/rice/white-rice.jpg
+  - status: missing
+
+## rolls
+- Alaska Roll
+  - slug: alaska-roll
+  - path: /menu/rolls/alaska-roll.jpg
+  - status: missing
+- Salmon Skin Roll
+  - slug: salmon-skin-roll
+  - path: /menu/rolls/salmon-skin-roll.jpg
+  - status: missing
+- Volcano Roll
+  - slug: volcano-roll
+  - path: /menu/rolls/volcano-roll.jpg
+  - status: missing
+- Fire Cracker Roll
+  - slug: fire-cracker-roll
+  - path: /menu/rolls/fire-cracker-roll.jpg
+  - status: missing
+- Hawaiian Roll
+  - slug: hawaiian-roll
+  - path: /menu/rolls/hawaiian-roll.jpg
+  - status: missing
+- Green Dragon Roll
+  - slug: green-dragon-roll
+  - path: /menu/rolls/green-dragon-roll.jpg
+  - status: missing
+- Ocean Samurai Roll
+  - slug: ocean-samurai-roll
+  - path: /menu/rolls/ocean-samurai-roll.jpg
+  - status: missing
+- Christina Roll
+  - slug: christina-roll
+  - path: /menu/rolls/christina-roll.jpg
+  - status: missing
+- The Bomb Roll
+  - slug: the-bomb-roll
+  - path: /menu/rolls/the-bomb-roll.jpg
+  - status: missing
+- Hokie Roll
+  - slug: hokie-roll
+  - path: /menu/rolls/hokie-roll.jpg
+  - status: missing
+- Dynamite Roll
+  - slug: dynamite-roll
+  - path: /menu/rolls/dynamite-roll.jpg
+  - status: missing
+- Cowboy Roll
+  - slug: cowboy-roll
+  - path: /menu/rolls/cowboy-roll.jpg
+  - status: missing
+- Marble Rock & Roll
+  - slug: marble-rock-and-roll
+  - path: /menu/rolls/marble-rock-and-roll.jpg
+  - status: missing
+- New River Roll
+  - slug: new-river-roll
+  - path: /menu/rolls/new-river-roll.jpg
+  - status: missing
+- Rainbow Roll
+  - slug: rainbow-roll
+  - path: /menu/rolls/rainbow-roll.jpg
+  - status: missing
+- Gold Point Roll
+  - slug: gold-point-roll
+  - path: /menu/rolls/gold-point-roll.jpg
+  - status: missing
+- Motor City Roll
+  - slug: motor-city-roll
+  - path: /menu/rolls/motor-city-roll.jpg
+  - status: missing
+- Lover's Roll
+  - slug: lovers-roll
+  - path: /menu/rolls/lovers-roll.jpg
+  - status: missing
+- Four Seasons Roll
+  - slug: four-seasons-roll
+  - path: /menu/rolls/four-seasons-roll.jpg
+  - status: missing
+- Greensboro Roll
+  - slug: greensboro-roll
+  - path: /menu/rolls/greensboro-roll.jpg
+  - status: missing
+- Wildcat Roll
+  - slug: wildcat-roll
+  - path: /menu/rolls/wildcat-roll.jpg
+  - status: missing
+- Big Easy Roll
+  - slug: big-easy-roll
+  - path: /menu/rolls/big-easy-roll.jpg
+  - status: missing
+- Phoenix Tail Roll
+  - slug: phoenix-tail-roll
+  - path: /menu/rolls/phoenix-tail-roll.jpg
+  - status: missing
+- Black Dragon Roll
+  - slug: black-dragon-roll
+  - path: /menu/rolls/black-dragon-roll.jpg
+  - status: missing
+- California Roll
+  - slug: california-roll
+  - path: /menu/rolls/california-roll.jpg
+  - status: missing
+- Spicy California Roll
+  - slug: spicy-california-roll
+  - path: /menu/rolls/spicy-california-roll.jpg
+  - status: missing
+- Tuna Roll
+  - slug: tuna-roll
+  - path: /menu/rolls/tuna-roll.jpg
+  - status: missing
+- Tuna Avocado Roll
+  - slug: tuna-avocado-roll
+  - path: /menu/rolls/tuna-avocado-roll.jpg
+  - status: missing
+- Salmon Roll
+  - slug: salmon-roll
+  - path: /menu/rolls/salmon-roll.jpg
+  - status: missing
+- Salmon Avocado Roll
+  - slug: salmon-avocado-roll
+  - path: /menu/rolls/salmon-avocado-roll.jpg
+  - status: missing
+- Sweet Potato Roll
+  - slug: sweet-potato-roll
+  - path: /menu/rolls/sweet-potato-roll.jpg
+  - status: missing
+- Spicy Salmon Roll
+  - slug: spicy-salmon-roll
+  - path: /menu/rolls/spicy-salmon-roll.jpg
+  - status: missing
+- Spicy Tuna Roll
+  - slug: spicy-tuna-roll
+  - path: /menu/rolls/spicy-tuna-roll.jpg
+  - status: missing
+- Philadelphia Roll
+  - slug: philadelphia-roll
+  - path: /menu/rolls/philadelphia-roll.jpg
+  - status: missing
+- Unagi Roll (Eel)
+  - slug: unagi-roll-eel
+  - path: /menu/rolls/unagi-roll-eel.jpg
+  - status: missing
+- Oshinko Pickles Roll
+  - slug: oshinko-pickles-roll
+  - path: /menu/rolls/oshinko-pickles-roll.jpg
+  - status: missing
+- Cucumber Roll
+  - slug: cucumber-roll
+  - path: /menu/rolls/cucumber-roll.jpg
+  - status: missing
+- Vegetable Roll
+  - slug: vegetable-roll
+  - path: /menu/rolls/vegetable-roll.jpg
+  - status: missing
+- Avocado Roll
+  - slug: avocado-roll
+  - path: /menu/rolls/avocado-roll.jpg
+  - status: missing
+- Shrimp Tempura Roll
+  - slug: shrimp-tempura-roll
+  - path: /menu/rolls/shrimp-tempura-roll.jpg
+  - status: missing
+- Chicken Tempura Roll
+  - slug: chicken-tempura-roll
+  - path: /menu/rolls/chicken-tempura-roll.jpg
+  - status: missing
+- Spider Roll
+  - slug: spider-roll
+  - path: /menu/rolls/spider-roll.jpg
+  - status: missing
+- White Tuna Roll
+  - slug: white-tuna-roll
+  - path: /menu/rolls/white-tuna-roll.jpg
+  - status: missing
+- Hamachi Roll
+  - slug: hamachi-roll
+  - path: /menu/rolls/hamachi-roll.jpg
+  - status: missing
+- Blacksburg Roll
+  - slug: blacksburg-roll
+  - path: /menu/rolls/blacksburg-roll.jpg
+  - status: missing
+- Crab Rangoon Roll
+  - slug: crab-rangoon-roll
+  - path: /menu/rolls/crab-rangoon-roll.jpg
+  - status: missing
+- Crunch Roll
+  - slug: crunch-roll
+  - path: /menu/rolls/crunch-roll.jpg
+  - status: missing
+
+## salads
+- Salmon Skin Salad
+  - slug: salmon-skin-salad
+  - path: /menu/salads/salmon-skin-salad.jpg
+  - status: missing
+- Spicy Crawfish Salad
+  - slug: spicy-crawfish-salad
+  - path: /menu/salads/spicy-crawfish-salad.jpg
+  - status: missing
+- Seaweed Salad
+  - slug: seaweed-salad
+  - path: /menu/salads/seaweed-salad.jpg
+  - status: missing
+- Avocado Salad
+  - slug: avocado-salad
+  - path: /menu/salads/avocado-salad.jpg
+  - status: missing
+- House Salad
+  - slug: house-salad
+  - path: /menu/salads/house-salad.jpg
+  - status: missing
+- Squid Salad
+  - slug: squid-salad
+  - path: /menu/salads/squid-salad.jpg
+  - status: missing
+- Crab Salad
+  - slug: crab-salad
+  - path: /menu/salads/crab-salad.jpg
+  - status: missing
+
+## sashimi
+- Tako (Octopus)
+  - slug: tako-octopus
+  - path: /menu/sashimi/tako-octopus.jpg
+  - status: missing
+- Surf Clam
+  - slug: surf-clam
+  - path: /menu/sashimi/surf-clam.jpg
+  - status: missing
+- Amaebi (Sweet Shrimp w/ Head)
+  - slug: amaebi-sweet-shrimp-w-head
+  - path: /menu/sashimi/amaebi-sweet-shrimp-w-head.jpg
+  - status: missing
+- Ikura (Salmon Roe)
+  - slug: ikura-salmon-roe
+  - path: /menu/sashimi/ikura-salmon-roe.jpg
+  - status: missing
+- Tobiko (Flying Fish Roe)
+  - slug: tobiko-flying-fish-roe
+  - path: /menu/sashimi/tobiko-flying-fish-roe.jpg
+  - status: missing
+
+## soup
+- Miso Soup
+  - slug: miso-soup
+  - path: /menu/soup/miso-soup.jpg
+  - status: missing

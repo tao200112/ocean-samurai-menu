@@ -3,8 +3,8 @@ import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { Link } from "react-router-dom";
-import menuData from "../../data/menu-items.enriched.json";
+import { Link, useSearchParams } from "react-router-dom";
+import menuData from "../../data/menu-completed.json";
 import categoriesData from "../../data/menu-categories.json";
 
 const CATEGORIES = ["All", ...categoriesData.map((c) => c.display_name)];
@@ -17,8 +17,10 @@ const FILTERS = [
 ];
 
 export default function MenuPage() {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [searchQuery, setSearchQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState("All");
+  const initialCategory = searchParams.get("category") || "All";
+  const [activeCategory, setActiveCategory] = useState(CATEGORIES.includes(initialCategory) ? initialCategory : "All");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
 
   const toggleFilter = (key: string) => {
@@ -35,11 +37,11 @@ export default function MenuPage() {
       }
       
       // Filters check
-      if (activeFilters.includes("premium") && !item.ayce.tiers.includes("premium")) return false;
-      if (activeFilters.includes("supreme") && !item.ayce.tiers.includes("supreme")) return false;
+      if (activeFilters.includes("premium") && (!item.tier || !item.tier.includes("premium"))) return false;
+      if (activeFilters.includes("supreme") && (!item.tier || !item.tier.includes("supreme"))) return false;
       if (activeFilters.includes("no_raw") && item.is_raw) return false;
-      if (activeFilters.includes("vegetarian") && !item.tags.dietary_flags.includes("vegetarian")) return false;
-      if (activeFilters.includes("spicy") && item.spice_level === 0) return false;
+      if (activeFilters.includes("vegetarian") && (!item.dietary_flags || !item.dietary_flags.includes("vegetarian"))) return false;
+      if (activeFilters.includes("spicy") && (item.spice_level || 0) === 0) return false;
 
       // Search check
       if (searchQuery.trim() !== "") {
@@ -54,7 +56,7 @@ export default function MenuPage() {
 
   // Provide a generic fallback image based on category or item type
   const getFallbackImage = (item: any) => {
-    if (item.image) return item.image;
+    if (item.image?.main) return item.image.main;
     if (item.category.includes("Roll")) return "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop";
     if (item.category.includes("Sushi")) return "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop";
     if (item.category.includes("Soup") || item.category.includes("Salad")) return "https://images.unsplash.com/photo-1547496614-411a0179f82d?q=80&w=2070&auto=format&fit=crop";
@@ -70,7 +72,16 @@ export default function MenuPage() {
             {CATEGORIES.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setActiveCategory(cat)}
+                onClick={() => {
+                  setActiveCategory(cat);
+                  const newParams = new URLSearchParams(searchParams);
+                  if (cat === "All") {
+                    newParams.delete("category");
+                  } else {
+                    newParams.set("category", cat);
+                  }
+                  setSearchParams(newParams);
+                }}
                 className={cn(
                   "flex flex-col items-center justify-center whitespace-nowrap border-b-2 pb-3 pt-1 text-sm font-bold tracking-wide transition-colors",
                   activeCategory === cat
@@ -126,14 +137,14 @@ export default function MenuPage() {
 
         {/* Menu List */}
         <div className="space-y-6">
-          {filteredItems.map((item) => {
+          {filteredItems.map((item: any) => {
             const displayTags = [];
-            if (item.ayce.tiers.includes("supreme")) displayTags.push("Supreme");
-            else if (item.ayce.tiers.includes("premium")) displayTags.push("Premium");
+            if (item.tier?.includes("supreme")) displayTags.push("Supreme");
+            else if (item.tier?.includes("premium")) displayTags.push("Premium");
 
             if (item.is_raw) displayTags.push("Raw");
-            if (item.spice_level > 0) displayTags.push("Spicy");
-            if (item.tags.dietary_flags.includes("vegetarian")) displayTags.push("Veg");
+            if ((item.spice_level || 0) > 0) displayTags.push("Spicy");
+            if (item.dietary_flags?.includes("vegetarian")) displayTags.push("Veg");
             
             return (
               <Link to={`/menu/${item.id}`} key={item.id} className="block group">
@@ -164,16 +175,16 @@ export default function MenuPage() {
                   <div className="p-4 space-y-2">
                     <div className="flex items-start justify-between">
                       <h3 className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors pr-2">{item.name}</h3>
-                      <span className="font-bold text-primary whitespace-nowrap">
-                        {item.price !== null ? `$${item.price.toFixed(2)}` : "Select Options"}
+                      <span className="font-bold text-primary whitespace-nowrap text-sm bg-primary/10 px-2 py-1 rounded-md">
+                        {item.tier?.includes("supreme") ? "Supreme Menu" : "Premium Menu"}
                       </span>
                     </div>
                     <p className="text-sm leading-relaxed text-slate-300">
-                      {item.short_description}
+                      {item.description_short}
                     </p>
-                    {item.tags.ingredients_main.length > 0 && (
+                    {item.proteins && item.proteins.length > 0 && (
                       <p className="text-xs italic text-muted-foreground break-words">
-                        {item.tags.ingredients_main.map(i => i.replace(/_/g, ' ')).join(', ')}
+                        {item.proteins.map((i: string) => i.replace(/_/g, ' ')).join(', ')}
                       </p>
                     )}
                     <div className="flex justify-between items-center pt-2">

@@ -1,0 +1,7131 @@
+[
+  {
+    "id": "alaska-roll",
+    "slug": "alaska-roll",
+    "name": "Alaska Roll",
+    "display_name": "Alaska Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/alaska-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "alaska roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "salmon-skin-roll",
+    "slug": "salmon-skin-roll",
+    "name": "Salmon Skin Roll",
+    "display_name": "Salmon Skin Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/salmon-skin-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "salmon skin roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "volcano-roll",
+    "slug": "volcano-roll",
+    "name": "Volcano Roll",
+    "display_name": "Volcano Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/volcano-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "volcano roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "fire-cracker-roll",
+    "slug": "fire-cracker-roll",
+    "name": "Fire Cracker Roll",
+    "display_name": "Fire Cracker Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/fire-cracker-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "fire cracker roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hawaiian-roll",
+    "slug": "hawaiian-roll",
+    "name": "Hawaiian Roll",
+    "display_name": "Hawaiian Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/hawaiian-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hawaiian roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "green-dragon-roll",
+    "slug": "green-dragon-roll",
+    "name": "Green Dragon Roll",
+    "display_name": "Green Dragon Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/green-dragon-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "green dragon roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "ocean-samurai-roll",
+    "slug": "ocean-samurai-roll",
+    "name": "Ocean Samurai Roll",
+    "display_name": "Ocean Samurai Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/ocean-samurai-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "ocean samurai roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "christina-roll",
+    "slug": "christina-roll",
+    "name": "Christina Roll",
+    "display_name": "Christina Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/christina-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "christina roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "the-bomb-roll",
+    "slug": "the-bomb-roll",
+    "name": "The Bomb Roll",
+    "display_name": "The Bomb Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/the-bomb-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "the bomb roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hokie-roll",
+    "slug": "hokie-roll",
+    "name": "Hokie Roll",
+    "display_name": "Hokie Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/hokie-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hokie roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "dynamite-roll",
+    "slug": "dynamite-roll",
+    "name": "Dynamite Roll",
+    "display_name": "Dynamite Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/dynamite-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "dynamite roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "cowboy-roll",
+    "slug": "cowboy-roll",
+    "name": "Cowboy Roll",
+    "display_name": "Cowboy Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/cowboy-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "cowboy roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "marble-rock-and-roll",
+    "slug": "marble-rock-and-roll",
+    "name": "Marble Rock & Roll",
+    "display_name": "Marble Rock & Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/marble-rock-and-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "marble rock and roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "new-river-roll",
+    "slug": "new-river-roll",
+    "name": "New River Roll",
+    "display_name": "New River Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/new-river-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "new river roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "rainbow-roll",
+    "slug": "rainbow-roll",
+    "name": "Rainbow Roll",
+    "display_name": "Rainbow Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/rainbow-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "rainbow roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "gold-point-roll",
+    "slug": "gold-point-roll",
+    "name": "Gold Point Roll",
+    "display_name": "Gold Point Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/gold-point-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A specially crafted premium roll.",
+    "description_long": "This specialty roll features a carefully designed blend of ingredients for a dynamic flavor profile. Offering contrasting textures and satisfying tastes.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "gold point roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "motor-city-roll",
+    "slug": "motor-city-roll",
+    "name": "Motor City Roll",
+    "display_name": "Motor City Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/motor-city-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "motor city roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "lovers-roll",
+    "slug": "lovers-roll",
+    "name": "Lover's Roll",
+    "display_name": "Lover's Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/lovers-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "lovers roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "four-seasons-roll",
+    "slug": "four-seasons-roll",
+    "name": "Four Seasons Roll",
+    "display_name": "Four Seasons Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/four-seasons-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "four seasons roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "greensboro-roll",
+    "slug": "greensboro-roll",
+    "name": "Greensboro Roll",
+    "display_name": "Greensboro Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/greensboro-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "greensboro roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "wildcat-roll",
+    "slug": "wildcat-roll",
+    "name": "Wildcat Roll",
+    "display_name": "Wildcat Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 10,
+    "image": {
+      "main": "/menu/rolls/wildcat-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "wildcat roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "big-easy-roll",
+    "slug": "big-easy-roll",
+    "name": "Big Easy Roll",
+    "display_name": "Big Easy Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/big-easy-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "big easy roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "phoenix-tail-roll",
+    "slug": "phoenix-tail-roll",
+    "name": "Phoenix Tail Roll",
+    "display_name": "Phoenix Tail Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/phoenix-tail-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "phoenix tail roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "black-dragon-roll",
+    "slug": "black-dragon-roll",
+    "name": "Black Dragon Roll",
+    "display_name": "Black Dragon Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Special Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/black-dragon-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium specialty roll with elevated ingredients.",
+    "description_long": "This carefully assembled roll provides an intricate flavor experience. It highlights top-tier ingredients and compelling textures for a supreme experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "black dragon roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "salmon-skin-salad",
+    "slug": "salmon-skin-salad",
+    "name": "Salmon Skin Salad",
+    "display_name": "Salmon Skin Salad",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Salads",
+    "subcategory": null,
+    "item_type": "salad",
+    "pieces": null,
+    "image": {
+      "main": "/menu/salads/salmon-skin-salad.jpg",
+      "gallery": []
+    },
+    "description_short": "A savory salad featuring crispy salmon skin.",
+    "description_long": "This salad provides a crisp and savory experience with its toasted salmon skin. It offers a balance of textures and fresh greens.",
+    "ingredients_known": [
+      "salmon skin",
+      "mixed greens"
+    ],
+    "ingredients_inferred": [
+      "ponzu"
+    ],
+    "proteins": [
+      "salmon"
+    ],
+    "vegetables": [
+      "mixed_greens"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "fried",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "crispy"
+    ],
+    "texture": [
+      "crispy",
+      "fresh"
+    ],
+    "allergens": [
+      "fish",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "salmon skin salad"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "wasabi-shrimp",
+    "slug": "wasabi-shrimp",
+    "name": "Wasabi Shrimp",
+    "display_name": "Wasabi Shrimp",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 5,
+    "image": {
+      "main": "/menu/appetizers/wasabi-shrimp.jpg",
+      "gallery": []
+    },
+    "description_short": "Fried shrimp with a kick of wasabi.",
+    "description_long": "These shrimp are lightly fried and paired with a subtle wasabi heat. They offer a rich and crispy texture with a spicy undertone. Ideal for sharing.",
+    "ingredients_known": [
+      "shrimp",
+      "wasabi"
+    ],
+    "ingredients_inferred": [
+      "tempura batter"
+    ],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "fried"
+    ],
+    "flavor_profile": [
+      "spicy",
+      "savory"
+    ],
+    "texture": [
+      "crispy",
+      "tender"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "SPICY"
+    ],
+    "experience_tags": [],
+    "spice_level": 1,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "wasabi shrimp"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "fried-calamari",
+    "slug": "fried-calamari",
+    "name": "Fried Calamari",
+    "display_name": "Fried Calamari",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": null,
+    "image": {
+      "main": "/menu/appetizers/fried-calamari.jpg",
+      "gallery": []
+    },
+    "description_short": "Crispy fried squid rings.",
+    "description_long": "Tender squid is coated and fried until golden brown. This dish highlights a satisfying crunch with a savory finish.",
+    "ingredients_known": [
+      "squid"
+    ],
+    "ingredients_inferred": [
+      "batter"
+    ],
+    "proteins": [
+      "squid"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "crispy",
+      "tender"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "fried calamari"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "spicy-crawfish-salad",
+    "slug": "spicy-crawfish-salad",
+    "name": "Spicy Crawfish Salad",
+    "display_name": "Spicy Crawfish Salad",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Salads",
+    "subcategory": null,
+    "item_type": "salad",
+    "pieces": null,
+    "image": {
+      "main": "/menu/salads/spicy-crawfish-salad.jpg",
+      "gallery": []
+    },
+    "description_short": "A vibrant salad mixed with spicy crawfish.",
+    "description_long": "This salad features seasoned crawfish combined with crisp greens. It provides a savory flavor paired with a noticeable spicy kick.",
+    "ingredients_known": [
+      "crawfish"
+    ],
+    "ingredients_inferred": [
+      "mixed greens",
+      "spicy mayo"
+    ],
+    "proteins": [
+      "crawfish"
+    ],
+    "vegetables": [
+      "mixed_greens"
+    ],
+    "sauces": [
+      "spicy_mayo"
+    ],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "spicy",
+      "savory"
+    ],
+    "texture": [
+      "soft",
+      "crispy"
+    ],
+    "allergens": [
+      "shellfish",
+      "egg",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "SPICY"
+    ],
+    "experience_tags": [],
+    "spice_level": 2,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "spicy crawfish salad"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "jalapeo-yellowtail",
+    "slug": "jalapeo-yellowtail",
+    "name": "Jalapeño Yellowtail",
+    "display_name": "Jalapeño Yellowtail",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": null,
+    "image": {
+      "main": "/menu/appetizers/jalapeo-yellowtail.jpg",
+      "gallery": []
+    },
+    "description_short": "Fresh yellowtail topped with sliced jalapeño.",
+    "description_long": "Delicate slices of raw yellowtail are brightened by the heat of jalapeño. This dish highlights the rich texture of the fish with a sharp, fresh bite.",
+    "ingredients_known": [
+      "yellowtail",
+      "jalapeno"
+    ],
+    "ingredients_inferred": [
+      "ponzu"
+    ],
+    "proteins": [
+      "yellowtail"
+    ],
+    "vegetables": [
+      "jalapeno"
+    ],
+    "sauces": [
+      "ponzu"
+    ],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "spicy",
+      "savory",
+      "fresh"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [
+      "fish",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "RAW",
+      "SPICY"
+    ],
+    "experience_tags": [],
+    "spice_level": 1,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "jalapeo yellowtail"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tako-octopus",
+    "slug": "tako-octopus",
+    "name": "Tako (Octopus)",
+    "display_name": "Tako",
+    "chinese_name": null,
+    "aliases": [
+      "Octopus"
+    ],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Sashimi",
+    "subcategory": null,
+    "item_type": "sashimi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/sashimi/tako-octopus.jpg",
+      "gallery": []
+    },
+    "description_short": "Firm and mildly sweet slices of cooked octopus.",
+    "description_long": "This offering highlights the unique, firm texture of octopus.",
+    "ingredients_known": [
+      "octopus"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "octopus"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "umami"
+    ],
+    "texture": [
+      "firm"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "LIMITED"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": 1,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tako octopus"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": [
+        "Sashimi surcharge applies if sashimi"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "surf-clam",
+    "slug": "surf-clam",
+    "name": "Surf Clam",
+    "display_name": "Surf Clam",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Sashimi",
+    "subcategory": null,
+    "item_type": "sashimi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/sashimi/surf-clam.jpg",
+      "gallery": []
+    },
+    "description_short": "Sliced surf clam with a firm, chewy texture.",
+    "description_long": "Surf clam offers a distinct visual appeal. It brings a mild, sweet flavor.",
+    "ingredients_known": [
+      "surf clam"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "scallop"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "sweet"
+    ],
+    "texture": [
+      "firm"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "LIMITED"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": 1,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "surf clam"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": [
+        "Mapped surf clam to nearest protein: scallop. Sashimi surcharge applies."
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "amaebi-sweet-shrimp-w-head",
+    "slug": "amaebi-sweet-shrimp-w-head",
+    "name": "Amaebi (Sweet Shrimp w/ Head)",
+    "display_name": "Amaebi",
+    "chinese_name": null,
+    "aliases": [
+      "Sweet Shrimp"
+    ],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Sashimi",
+    "subcategory": null,
+    "item_type": "sashimi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/sashimi/amaebi-sweet-shrimp-w-head.jpg",
+      "gallery": []
+    },
+    "description_short": "Raw sweet shrimp served with its head.",
+    "description_long": "This premium raw shrimp is prized for its soft, sweet profile.",
+    "ingredients_known": [
+      "sweet shrimp"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "light"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "RAW",
+      "LIMITED"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": 1,
+    "sashimi_surcharge": null,
+    "cultural_note": "Prized in Japanese sushi for its delicate sweetness.",
+    "chef_note": "",
+    "search_keywords": [
+      "amaebi sweet shrimp w head"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "ikura-salmon-roe",
+    "slug": "ikura-salmon-roe",
+    "name": "Ikura (Salmon Roe)",
+    "display_name": "Ikura",
+    "chinese_name": null,
+    "aliases": [
+      "Salmon Roe"
+    ],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Sashimi",
+    "subcategory": null,
+    "item_type": "sashimi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/sashimi/ikura-salmon-roe.jpg",
+      "gallery": []
+    },
+    "description_short": "Delicate, briny salmon roe.",
+    "description_long": "These vibrant orange pearls provide a satisfying pop of umami and brine.",
+    "ingredients_known": [
+      "salmon roe"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "roe"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw"
+    ],
+    "flavor_profile": [
+      "savory",
+      "umami"
+    ],
+    "texture": [
+      "popping"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "RAW",
+      "LIMITED"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": 1,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "ikura salmon roe"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tobiko-flying-fish-roe",
+    "slug": "tobiko-flying-fish-roe",
+    "name": "Tobiko (Flying Fish Roe)",
+    "display_name": "Tobiko",
+    "chinese_name": null,
+    "aliases": [
+      "Flying Fish Roe"
+    ],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Sashimi",
+    "subcategory": null,
+    "item_type": "sashimi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/sashimi/tobiko-flying-fish-roe.jpg",
+      "gallery": []
+    },
+    "description_short": "Crunchy and colorful flying fish roe.",
+    "description_long": "Tobiko adds a bright, crunchy texture to sushi.",
+    "ingredients_known": [
+      "flying fish roe"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "roe"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw"
+    ],
+    "flavor_profile": [
+      "smoky",
+      "umami"
+    ],
+    "texture": [
+      "popping"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tobiko flying fish roe"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hibachi-teriyaki-filet-mignon",
+    "slug": "hibachi-teriyaki-filet-mignon",
+    "name": "Hibachi Teriyaki Filet Mignon",
+    "display_name": "Hibachi Teriyaki Filet Mignon",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Hibachi",
+    "subcategory": null,
+    "item_type": "hibachi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/hibachi/hibachi-teriyaki-filet-mignon.jpg",
+      "gallery": []
+    },
+    "description_short": "Grilled filet mignon served with a flavorful hibachi finish.",
+    "description_long": "This dish features tender filet mignon seared to perfection.",
+    "ingredients_known": [
+      "filet mignon"
+    ],
+    "ingredients_inferred": [
+      "teriyaki sauce",
+      "vegetables"
+    ],
+    "proteins": [
+      "filet_mignon"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "teriyaki_sauce"
+    ],
+    "cooking_methods": [
+      "grilled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME",
+      "LIMITED"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": 1,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hibachi teriyaki filet mignon"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hibachi-teriyaki-scallop",
+    "slug": "hibachi-teriyaki-scallop",
+    "name": "Hibachi Teriyaki Scallop",
+    "display_name": "Hibachi Teriyaki Scallop",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "supreme"
+    ],
+    "category": "Hibachi",
+    "subcategory": null,
+    "item_type": "hibachi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/hibachi/hibachi-teriyaki-scallop.jpg",
+      "gallery": []
+    },
+    "description_short": "Seared scallops with a rich teriyaki glaze.",
+    "description_long": "These scallops are grilled to achieve a tender, satisfying bite.",
+    "ingredients_known": [
+      "scallop"
+    ],
+    "ingredients_inferred": [
+      "teriyaki sauce",
+      "vegetables"
+    ],
+    "proteins": [
+      "scallop"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "teriyaki_sauce"
+    ],
+    "cooking_methods": [
+      "grilled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "sweet"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "SUPREME"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hibachi teriyaki scallop"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "miso-soup",
+    "slug": "miso-soup",
+    "name": "Miso Soup",
+    "display_name": "Miso Soup",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Soup",
+    "subcategory": null,
+    "item_type": "soup",
+    "pieces": null,
+    "image": {
+      "main": "/menu/soup/miso-soup.jpg",
+      "gallery": []
+    },
+    "description_short": "Traditional savory soybean soup.",
+    "description_long": "A warm, comforting bowl of miso broth. It features subtle umami notes with a light, soothing finish.",
+    "ingredients_known": [
+      "miso paste"
+    ],
+    "ingredients_inferred": [
+      "tofu",
+      "seaweed",
+      "scallion"
+    ],
+    "proteins": [
+      "tofu"
+    ],
+    "vegetables": [
+      "seaweed",
+      "scallion"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "umami",
+      "light"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "dietary_flags": [
+      "vegetarian",
+      "dairy_free_possible"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "miso soup"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "seaweed-salad",
+    "slug": "seaweed-salad",
+    "name": "Seaweed Salad",
+    "display_name": "Seaweed Salad",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Salads",
+    "subcategory": null,
+    "item_type": "salad",
+    "pieces": null,
+    "image": {
+      "main": "/menu/salads/seaweed-salad.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium seaweed salad.",
+    "description_long": "This seaweed salad offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "seaweed"
+    ],
+    "ingredients_inferred": [
+      "sesame seeds"
+    ],
+    "proteins": [],
+    "vegetables": [
+      "seaweed"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "light"
+    ],
+    "texture": [
+      "crispy",
+      "firm"
+    ],
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "seaweed salad"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "avocado-salad",
+    "slug": "avocado-salad",
+    "name": "Avocado Salad",
+    "display_name": "Avocado Salad",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Salads",
+    "subcategory": null,
+    "item_type": "salad",
+    "pieces": null,
+    "image": {
+      "main": "/menu/salads/avocado-salad.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium avocado salad.",
+    "description_long": "This avocado salad offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "avocado",
+      "mixed greens"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "avocado",
+      "mixed_greens"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh"
+    ],
+    "texture": [
+      "creamy",
+      "crispy"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "avocado salad"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "house-salad",
+    "slug": "house-salad",
+    "name": "House Salad",
+    "display_name": "House Salad",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Salads",
+    "subcategory": null,
+    "item_type": "salad",
+    "pieces": null,
+    "image": {
+      "main": "/menu/salads/house-salad.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium house salad.",
+    "description_long": "This house salad offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "mixed greens"
+    ],
+    "ingredients_inferred": [
+      "house dressing"
+    ],
+    "proteins": [],
+    "vegetables": [
+      "mixed_greens"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh"
+    ],
+    "texture": [
+      "crispy"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "house salad"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "squid-salad",
+    "slug": "squid-salad",
+    "name": "Squid Salad",
+    "display_name": "Squid Salad",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Salads",
+    "subcategory": null,
+    "item_type": "salad",
+    "pieces": null,
+    "image": {
+      "main": "/menu/salads/squid-salad.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium squid salad.",
+    "description_long": "This squid salad offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "squid"
+    ],
+    "ingredients_inferred": [
+      "sesame"
+    ],
+    "proteins": [
+      "squid"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "light"
+    ],
+    "texture": [
+      "firm",
+      "chewy"
+    ],
+    "allergens": [
+      "shellfish",
+      "sesame"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "squid salad"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "crab-salad",
+    "slug": "crab-salad",
+    "name": "Crab Salad",
+    "display_name": "Crab Salad",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Salads",
+    "subcategory": null,
+    "item_type": "salad",
+    "pieces": null,
+    "image": {
+      "main": "/menu/salads/crab-salad.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium crab salad.",
+    "description_long": "This crab salad offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "crab",
+      "mixed greens"
+    ],
+    "ingredients_inferred": [
+      "mayo"
+    ],
+    "proteins": [
+      "crab"
+    ],
+    "vegetables": [
+      "mixed_greens"
+    ],
+    "sauces": [
+      "yum_yum_sauce"
+    ],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "creamy"
+    ],
+    "texture": [
+      "soft",
+      "crispy"
+    ],
+    "allergens": [
+      "shellfish",
+      "egg"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "crab salad"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "edamame-bean",
+    "slug": "edamame-bean",
+    "name": "Edamame Bean",
+    "display_name": "Edamame Bean",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": null,
+    "image": {
+      "main": "/menu/appetizers/edamame-bean.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium edamame bean.",
+    "description_long": "This edamame bean offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "edamame",
+      "salt"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "edamame"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked"
+    ],
+    "flavor_profile": [
+      "light",
+      "savory"
+    ],
+    "texture": [
+      "soft",
+      "firm"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "dietary_flags": [
+      "vegetarian",
+      "gluten_free_possible"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "edamame bean"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "spring-roll",
+    "slug": "spring-roll",
+    "name": "Spring Roll",
+    "display_name": "Spring Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 2,
+    "image": {
+      "main": "/menu/appetizers/spring-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium spring roll.",
+    "description_long": "This spring roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "wrapper"
+    ],
+    "ingredients_inferred": [
+      "vegetables"
+    ],
+    "proteins": [],
+    "vegetables": [
+      "mixed_greens"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "crispy"
+    ],
+    "texture": [
+      "crispy",
+      "soft"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "spring roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "age-tofu",
+    "slug": "age-tofu",
+    "name": "Age Tofu",
+    "display_name": "Age Tofu",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": null,
+    "image": {
+      "main": "/menu/appetizers/age-tofu.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium age tofu.",
+    "description_long": "This age tofu offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tofu"
+    ],
+    "ingredients_inferred": [
+      "tempura batter",
+      "ponzu"
+    ],
+    "proteins": [
+      "tofu"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "ponzu"
+    ],
+    "cooking_methods": [
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "light"
+    ],
+    "texture": [
+      "crispy",
+      "soft"
+    ],
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "age tofu"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "shrimp-shumai-dumplings",
+    "slug": "shrimp-shumai-dumplings",
+    "name": "Shrimp Shumai Dumplings",
+    "display_name": "Shrimp Shumai Dumplings",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/appetizers/shrimp-shumai-dumplings.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium shrimp shumai dumplings.",
+    "description_long": "This shrimp shumai dumplings offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "shrimp",
+      "wrapper"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "light"
+    ],
+    "texture": [
+      "tender",
+      "soft"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "shrimp shumai dumplings"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "gyoza-dumplings",
+    "slug": "gyoza-dumplings",
+    "name": "Gyoza Dumplings",
+    "display_name": "Gyoza Dumplings",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/appetizers/gyoza-dumplings.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium gyoza dumplings.",
+    "description_long": "This gyoza dumplings offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "wrapper"
+    ],
+    "ingredients_inferred": [
+      "pork or chicken",
+      "cabbage"
+    ],
+    "proteins": [
+      "chicken"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "seared",
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "umami"
+    ],
+    "texture": [
+      "crispy",
+      "tender"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "gyoza dumplings"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": [
+        "Gyoza filling not specified, assumed chicken or pork."
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "vegetable-tempura",
+    "slug": "vegetable-tempura",
+    "name": "Vegetable Tempura",
+    "display_name": "Vegetable Tempura",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 4,
+    "image": {
+      "main": "/menu/appetizers/vegetable-tempura.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium vegetable tempura.",
+    "description_long": "This vegetable tempura offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "assorted vegetables",
+      "tempura batter"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "sweet_potato",
+      "onion"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "tempura",
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "light"
+    ],
+    "texture": [
+      "crispy",
+      "tender"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "TEMPURA",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "vegetable tempura"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "chicken-tempura",
+    "slug": "chicken-tempura",
+    "name": "Chicken Tempura",
+    "display_name": "Chicken Tempura",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 3,
+    "image": {
+      "main": "/menu/appetizers/chicken-tempura.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium chicken tempura.",
+    "description_long": "This chicken tempura offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "chicken",
+      "tempura batter"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "chicken"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "tempura",
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "crispy",
+      "juicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "TEMPURA"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "chicken tempura"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "shrimp-tempura",
+    "slug": "shrimp-tempura",
+    "name": "Shrimp Tempura",
+    "display_name": "Shrimp Tempura",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 3,
+    "image": {
+      "main": "/menu/appetizers/shrimp-tempura.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium shrimp tempura.",
+    "description_long": "This shrimp tempura offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "shrimp",
+      "tempura batter"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "tempura",
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "light"
+    ],
+    "texture": [
+      "crispy",
+      "tender"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "TEMPURA"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "shrimp tempura"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "crab-rangoon",
+    "slug": "crab-rangoon",
+    "name": "Crab Rangoon",
+    "display_name": "Crab Rangoon",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/appetizers/crab-rangoon.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium crab rangoon.",
+    "description_long": "This crab rangoon offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "crab",
+      "wrapper",
+      "cream cheese"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "crab"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "fried"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "savory",
+      "creamy"
+    ],
+    "texture": [
+      "crispy",
+      "creamy"
+    ],
+    "allergens": [
+      "shellfish",
+      "milk",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "crab rangoon"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "takoyaki-ball",
+    "slug": "takoyaki-ball",
+    "name": "Takoyaki Ball",
+    "display_name": "Takoyaki Ball",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/appetizers/takoyaki-ball.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium takoyaki ball.",
+    "description_long": "This takoyaki ball offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "octopus",
+      "batter"
+    ],
+    "ingredients_inferred": [
+      "spicy mayo"
+    ],
+    "proteins": [
+      "octopus"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "spicy_mayo"
+    ],
+    "cooking_methods": [
+      "fried"
+    ],
+    "flavor_profile": [
+      "savory",
+      "umami"
+    ],
+    "texture": [
+      "crispy",
+      "soft"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat",
+      "egg"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "takoyaki ball"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tuna-tataki",
+    "slug": "tuna-tataki",
+    "name": "Tuna Tataki",
+    "display_name": "Tuna Tataki",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Appetizers",
+    "subcategory": null,
+    "item_type": "appetizer",
+    "pieces": null,
+    "image": {
+      "main": "/menu/appetizers/tuna-tataki.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium tuna tataki.",
+    "description_long": "This tuna tataki offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tuna"
+    ],
+    "ingredients_inferred": [
+      "ponzu"
+    ],
+    "proteins": [
+      "tuna"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "ponzu"
+    ],
+    "cooking_methods": [
+      "seared",
+      "raw"
+    ],
+    "flavor_profile": [
+      "savory",
+      "fresh"
+    ],
+    "texture": [
+      "tender",
+      "firm"
+    ],
+    "allergens": [
+      "fish",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tuna tataki"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": true,
+      "review_notes": [
+        "Placed under appetizer per source list grouping but could be sashimi. Check exact grouping logic needed."
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "avocado",
+    "slug": "avocado",
+    "name": "Avocado",
+    "display_name": "Avocado",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/avocado.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium avocado.",
+    "description_long": "This avocado offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "avocado",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "avocado"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh"
+    ],
+    "texture": [
+      "creamy",
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "avocado"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "saba-mackerel",
+    "slug": "saba-mackerel",
+    "name": "Saba (Mackerel)",
+    "display_name": "Saba",
+    "chinese_name": null,
+    "aliases": [
+      "Mackerel"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/saba-mackerel.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium saba (mackerel).",
+    "description_long": "This saba (mackerel) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "mackerel",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "mackerel"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "cured"
+    ],
+    "flavor_profile": [
+      "savory",
+      "rich"
+    ],
+    "texture": [
+      "firm"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "saba mackerel"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tamago-egg",
+    "slug": "tamago-egg",
+    "name": "Tamago (Egg)",
+    "display_name": "Tamago",
+    "chinese_name": null,
+    "aliases": [
+      "Egg"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/tamago-egg.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium tamago (egg).",
+    "description_long": "This tamago (egg) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "egg",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "egg"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "light"
+    ],
+    "texture": [
+      "soft",
+      "tender"
+    ],
+    "allergens": [
+      "egg",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tamago egg"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "kani-crab",
+    "slug": "kani-crab",
+    "name": "Kani (Crab)",
+    "display_name": "Kani",
+    "chinese_name": null,
+    "aliases": [
+      "Crab Stick",
+      "Crab"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/kani-crab.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium kani (crab).",
+    "description_long": "This kani (crab) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "crab",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "crab"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "light"
+    ],
+    "texture": [
+      "firm"
+    ],
+    "allergens": [
+      "shellfish",
+      "fish",
+      "wheat",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "kani crab"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "inari-tofu-skin",
+    "slug": "inari-tofu-skin",
+    "name": "Inari (Tofu Skin)",
+    "display_name": "Inari",
+    "chinese_name": null,
+    "aliases": [
+      "Tofu Skin"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/inari-tofu-skin.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium inari (tofu skin).",
+    "description_long": "This inari (tofu skin) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tofu skin",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "tofu"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "savory"
+    ],
+    "texture": [
+      "soft",
+      "spongy"
+    ],
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "inari tofu skin"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "ebi-shrimp",
+    "slug": "ebi-shrimp",
+    "name": "Ebi (Shrimp)",
+    "display_name": "Ebi",
+    "chinese_name": null,
+    "aliases": [
+      "Shrimp"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/ebi-shrimp.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium ebi (shrimp).",
+    "description_long": "This ebi (shrimp) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "shrimp",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "light"
+    ],
+    "texture": [
+      "firm",
+      "tender"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "ebi shrimp"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "sake-salmon",
+    "slug": "sake-salmon",
+    "name": "Sake (Salmon)",
+    "display_name": "Sake",
+    "chinese_name": null,
+    "aliases": [
+      "Salmon"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/sake-salmon.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium sake (salmon).",
+    "description_long": "This sake (salmon) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "salmon",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "salmon"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "rich",
+      "fresh"
+    ],
+    "texture": [
+      "tender",
+      "soft"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "sake salmon"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tai-tilapia",
+    "slug": "tai-tilapia",
+    "name": "Tai (Tilapia)",
+    "display_name": "Tai",
+    "chinese_name": null,
+    "aliases": [
+      "Tilapia"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/tai-tilapia.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium tai (tilapia).",
+    "description_long": "This tai (tilapia) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tilapia",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "tilapia"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh"
+    ],
+    "texture": [
+      "firm"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tai tilapia"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tuna",
+    "slug": "tuna",
+    "name": "Tuna",
+    "display_name": "Tuna",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/tuna.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium tuna.",
+    "description_long": "This tuna offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tuna",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "tuna"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "fresh"
+    ],
+    "texture": [
+      "firm",
+      "tender"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tuna"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "escolar-white-tuna",
+    "slug": "escolar-white-tuna",
+    "name": "Escolar (White Tuna)",
+    "display_name": "Escolar",
+    "chinese_name": null,
+    "aliases": [
+      "White Tuna"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/escolar-white-tuna.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium escolar (white tuna).",
+    "description_long": "This escolar (white tuna) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "white tuna",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "white_tuna"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "rich",
+      "umami"
+    ],
+    "texture": [
+      "soft",
+      "creamy"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "escolar white tuna"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "smoked-salmon",
+    "slug": "smoked-salmon",
+    "name": "Smoked Salmon",
+    "display_name": "Smoked Salmon",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/smoked-salmon.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium smoked salmon.",
+    "description_long": "This smoked salmon offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "smoked salmon",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "salmon"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "smoked",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "smoky",
+      "savory"
+    ],
+    "texture": [
+      "firm",
+      "tender"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "smoked salmon"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hamachi",
+    "slug": "hamachi",
+    "name": "Hamachi",
+    "display_name": "Hamachi",
+    "chinese_name": null,
+    "aliases": [
+      "Yellowtail"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/hamachi.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium hamachi.",
+    "description_long": "This hamachi offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "yellowtail",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "yellowtail"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "rich",
+      "savory"
+    ],
+    "texture": [
+      "tender",
+      "soft"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hamachi"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "unagi-eel",
+    "slug": "unagi-eel",
+    "name": "Unagi (Eel)",
+    "display_name": "Unagi",
+    "chinese_name": null,
+    "aliases": [
+      "Eel"
+    ],
+    "tier": [
+      "premium"
+    ],
+    "category": "Nigiri",
+    "subcategory": null,
+    "item_type": "nigiri",
+    "pieces": null,
+    "image": {
+      "main": "/menu/nigiri/unagi-eel.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium unagi (eel).",
+    "description_long": "This unagi (eel) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "eel",
+      "eel sauce",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "eel"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "eel_sauce"
+    ],
+    "cooking_methods": [
+      "grilled",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "savory"
+    ],
+    "texture": [
+      "soft",
+      "tender"
+    ],
+    "allergens": [
+      "fish",
+      "soy",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "unagi eel"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "california-roll",
+    "slug": "california-roll",
+    "name": "California Roll",
+    "display_name": "California Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/california-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium california roll.",
+    "description_long": "This california roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "crab",
+      "avocado",
+      "cucumber",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "crab"
+    ],
+    "vegetables": [
+      "avocado",
+      "cucumber"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh",
+      "sweet"
+    ],
+    "texture": [
+      "soft",
+      "crispy"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "california roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "spicy-california-roll",
+    "slug": "spicy-california-roll",
+    "name": "Spicy California Roll",
+    "display_name": "Spicy California Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/spicy-california-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium spicy california roll.",
+    "description_long": "This spicy california roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "crab",
+      "avocado",
+      "cucumber",
+      "spicy mayo",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "crab"
+    ],
+    "vegetables": [
+      "avocado",
+      "cucumber"
+    ],
+    "sauces": [
+      "spicy_mayo"
+    ],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "spicy",
+      "light"
+    ],
+    "texture": [
+      "soft",
+      "crispy"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat",
+      "soy",
+      "egg"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "SPICY"
+    ],
+    "experience_tags": [],
+    "spice_level": 1,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "spicy california roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tuna-roll",
+    "slug": "tuna-roll",
+    "name": "Tuna Roll",
+    "display_name": "Tuna Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/tuna-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium tuna roll.",
+    "description_long": "This tuna roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tuna",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "tuna"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "fresh",
+      "lean"
+    ],
+    "texture": [
+      "firm",
+      "soft"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tuna roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "tuna-avocado-roll",
+    "slug": "tuna-avocado-roll",
+    "name": "Tuna Avocado Roll",
+    "display_name": "Tuna Avocado Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/tuna-avocado-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium tuna avocado roll.",
+    "description_long": "This tuna avocado roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tuna",
+      "avocado",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "tuna"
+    ],
+    "vegetables": [
+      "avocado"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "fresh",
+      "rich"
+    ],
+    "texture": [
+      "soft",
+      "creamy"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "tuna avocado roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "salmon-roll",
+    "slug": "salmon-roll",
+    "name": "Salmon Roll",
+    "display_name": "Salmon Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/salmon-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium salmon roll.",
+    "description_long": "This salmon roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "salmon",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "salmon"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "rich",
+      "fresh"
+    ],
+    "texture": [
+      "tender",
+      "soft"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "salmon roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "salmon-avocado-roll",
+    "slug": "salmon-avocado-roll",
+    "name": "Salmon Avocado Roll",
+    "display_name": "Salmon Avocado Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/salmon-avocado-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium salmon avocado roll.",
+    "description_long": "This salmon avocado roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "salmon",
+      "avocado",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "salmon"
+    ],
+    "vegetables": [
+      "avocado"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "rich",
+      "creamy"
+    ],
+    "texture": [
+      "tender",
+      "creamy"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "salmon avocado roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "sweet-potato-roll",
+    "slug": "sweet-potato-roll",
+    "name": "Sweet Potato Roll",
+    "display_name": "Sweet Potato Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/sweet-potato-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium sweet potato roll.",
+    "description_long": "This sweet potato roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "sweet potato",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "sweet_potato"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "fried",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "savory",
+      "earthy"
+    ],
+    "texture": [
+      "crispy",
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "sweet potato roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "spicy-salmon-roll",
+    "slug": "spicy-salmon-roll",
+    "name": "Spicy Salmon Roll",
+    "display_name": "Spicy Salmon Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/spicy-salmon-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium spicy salmon roll.",
+    "description_long": "This spicy salmon roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "salmon",
+      "spicy sauce",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "salmon"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "spicy_mayo"
+    ],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "spicy",
+      "rich"
+    ],
+    "texture": [
+      "soft",
+      "tender"
+    ],
+    "allergens": [
+      "fish",
+      "egg",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW",
+      "SPICY"
+    ],
+    "experience_tags": [],
+    "spice_level": 1,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "spicy salmon roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "spicy-tuna-roll",
+    "slug": "spicy-tuna-roll",
+    "name": "Spicy Tuna Roll",
+    "display_name": "Spicy Tuna Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/spicy-tuna-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium spicy tuna roll.",
+    "description_long": "This spicy tuna roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "tuna",
+      "spicy sauce",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "tuna"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "spicy_mayo"
+    ],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "spicy",
+      "savory"
+    ],
+    "texture": [
+      "soft",
+      "tender"
+    ],
+    "allergens": [
+      "fish",
+      "egg",
+      "soy"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW",
+      "SPICY"
+    ],
+    "experience_tags": [],
+    "spice_level": 2,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "spicy tuna roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "philadelphia-roll",
+    "slug": "philadelphia-roll",
+    "name": "Philadelphia Roll",
+    "display_name": "Philadelphia Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/philadelphia-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium philadelphia roll.",
+    "description_long": "This philadelphia roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "smoked salmon",
+      "cream cheese",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "salmon"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "smoked",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "rich",
+      "smoky",
+      "creamy"
+    ],
+    "texture": [
+      "creamy",
+      "soft"
+    ],
+    "allergens": [
+      "fish",
+      "milk"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "philadelphia roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "unagi-roll-eel",
+    "slug": "unagi-roll-eel",
+    "name": "Unagi Roll (Eel)",
+    "display_name": "Unagi Roll (Eel)",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/unagi-roll-eel.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium unagi roll (eel).",
+    "description_long": "This unagi roll (eel) offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "eel",
+      "eel sauce",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "eel"
+    ],
+    "vegetables": [],
+    "sauces": [
+      "eel_sauce"
+    ],
+    "cooking_methods": [
+      "grilled",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "savory"
+    ],
+    "texture": [
+      "soft",
+      "tender"
+    ],
+    "allergens": [
+      "fish",
+      "soy",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "unagi roll eel"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "oshinko-pickles-roll",
+    "slug": "oshinko-pickles-roll",
+    "name": "Oshinko Pickles Roll",
+    "display_name": "Oshinko Pickles Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/oshinko-pickles-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium oshinko pickles roll.",
+    "description_long": "This oshinko pickles roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "oshinko",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "oshinko"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "tangy"
+    ],
+    "texture": [
+      "crispy",
+      "firm"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "oshinko pickles roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "cucumber-roll",
+    "slug": "cucumber-roll",
+    "name": "Cucumber Roll",
+    "display_name": "Cucumber Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/cucumber-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium cucumber roll.",
+    "description_long": "This cucumber roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "cucumber",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "cucumber"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh"
+    ],
+    "texture": [
+      "crispy",
+      "firm"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "cucumber roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "vegetable-roll",
+    "slug": "vegetable-roll",
+    "name": "Vegetable Roll",
+    "display_name": "Vegetable Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/vegetable-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium vegetable roll.",
+    "description_long": "This vegetable roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "assorted vegetables",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "mixed_greens",
+      "avocado",
+      "cucumber"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh",
+      "earthy"
+    ],
+    "texture": [
+      "crispy",
+      "firm"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "vegetable roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "avocado-roll",
+    "slug": "avocado-roll",
+    "name": "Avocado Roll",
+    "display_name": "Avocado Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/avocado-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium avocado roll.",
+    "description_long": "This avocado roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "avocado",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [
+      "avocado"
+    ],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "light",
+      "fresh",
+      "rich"
+    ],
+    "texture": [
+      "creamy",
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "avocado roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "shrimp-tempura-roll",
+    "slug": "shrimp-tempura-roll",
+    "name": "Shrimp Tempura Roll",
+    "display_name": "Shrimp Tempura Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/shrimp-tempura-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium shrimp tempura roll.",
+    "description_long": "This shrimp tempura roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "shrimp tempura",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "tempura",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "crispy"
+    ],
+    "texture": [
+      "crispy",
+      "soft"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "TEMPURA"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "shrimp tempura roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "chicken-tempura-roll",
+    "slug": "chicken-tempura-roll",
+    "name": "Chicken Tempura Roll",
+    "display_name": "Chicken Tempura Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/chicken-tempura-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium chicken tempura roll.",
+    "description_long": "This chicken tempura roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "chicken tempura",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "chicken"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "tempura",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "crispy"
+    ],
+    "texture": [
+      "crispy",
+      "soft"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "TEMPURA"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "chicken tempura roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "spider-roll",
+    "slug": "spider-roll",
+    "name": "Spider Roll",
+    "display_name": "Spider Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/spider-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium spider roll.",
+    "description_long": "This spider roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "soft-shell crab",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "crab"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "fried",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "crispy"
+    ],
+    "texture": [
+      "crispy",
+      "firm"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "spider roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "white-tuna-roll",
+    "slug": "white-tuna-roll",
+    "name": "White Tuna Roll",
+    "display_name": "White Tuna Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/white-tuna-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium white tuna roll.",
+    "description_long": "This white tuna roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "white tuna",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "white_tuna"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "rich",
+      "umami",
+      "buttery"
+    ],
+    "texture": [
+      "soft",
+      "creamy"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "white tuna roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hamachi-roll",
+    "slug": "hamachi-roll",
+    "name": "Hamachi Roll",
+    "display_name": "Hamachi Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 6,
+    "image": {
+      "main": "/menu/rolls/hamachi-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium hamachi roll.",
+    "description_long": "This hamachi roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "yellowtail",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "yellowtail"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "raw",
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "fresh"
+    ],
+    "texture": [
+      "tender",
+      "soft"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM",
+      "RAW"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": true,
+    "beginner_friendly": false,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hamachi roll"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "blacksburg-roll",
+    "slug": "blacksburg-roll",
+    "name": "Blacksburg Roll",
+    "display_name": "Blacksburg Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/blacksburg-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A distinct classic roll variation.",
+    "description_long": "This roll provides a carefully selected blend of ingredients meant to bring a comforting and balanced flavor.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "soft"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "blacksburg roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Exact roll ingredients need confirmation"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "crab-rangoon-roll",
+    "slug": "crab-rangoon-roll",
+    "name": "Crab Rangoon Roll",
+    "display_name": "Crab Rangoon Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/crab-rangoon-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium crab rangoon roll.",
+    "description_long": "This crab rangoon roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "crab",
+      "cream cheese",
+      "nori",
+      "sushi rice"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [
+      "crab"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "savory",
+      "creamy"
+    ],
+    "texture": [
+      "creamy",
+      "soft"
+    ],
+    "allergens": [
+      "shellfish",
+      "milk"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "crab rangoon roll"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "crunch-roll",
+    "slug": "crunch-roll",
+    "name": "Crunch Roll",
+    "display_name": "Crunch Roll",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Classic Rolls",
+    "subcategory": null,
+    "item_type": "roll",
+    "pieces": 8,
+    "image": {
+      "main": "/menu/rolls/crunch-roll.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium crunch roll.",
+    "description_long": "This crunch roll offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "tempura flakes",
+      "nori",
+      "sushi rice"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory",
+      "crispy"
+    ],
+    "texture": [
+      "crispy",
+      "soft"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "crunch roll"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "needs_review": true,
+      "review_notes": [
+        "Needs specific crunch roll core ingredient check"
+      ]
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "yakisoba-vegetable",
+    "slug": "yakisoba-vegetable",
+    "name": "Yakisoba Vegetable",
+    "display_name": "Yakisoba Vegetable",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Noodles",
+    "subcategory": null,
+    "item_type": "noodle",
+    "pieces": null,
+    "image": {
+      "main": "/menu/noodles/yakisoba-vegetable.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium yakisoba vegetable.",
+    "description_long": "This yakisoba vegetable offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "yakisoba vegetable"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "yakisoba-steak",
+    "slug": "yakisoba-steak",
+    "name": "Yakisoba Steak",
+    "display_name": "Yakisoba Steak",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Noodles",
+    "subcategory": null,
+    "item_type": "noodle",
+    "pieces": null,
+    "image": {
+      "main": "/menu/noodles/yakisoba-steak.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium yakisoba steak.",
+    "description_long": "This yakisoba steak offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [
+      "filet_mignon"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "yakisoba steak"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "yakisoba-chicken",
+    "slug": "yakisoba-chicken",
+    "name": "Yakisoba Chicken",
+    "display_name": "Yakisoba Chicken",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Noodles",
+    "subcategory": null,
+    "item_type": "noodle",
+    "pieces": null,
+    "image": {
+      "main": "/menu/noodles/yakisoba-chicken.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium yakisoba chicken.",
+    "description_long": "This yakisoba chicken offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [
+      "chicken"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "yakisoba chicken"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "yakisoba-shrimp",
+    "slug": "yakisoba-shrimp",
+    "name": "Yakisoba Shrimp",
+    "display_name": "Yakisoba Shrimp",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Noodles",
+    "subcategory": null,
+    "item_type": "noodle",
+    "pieces": null,
+    "image": {
+      "main": "/menu/noodles/yakisoba-shrimp.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium yakisoba shrimp.",
+    "description_long": "This yakisoba shrimp offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "yakisoba shrimp"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hibachi-teriyaki-steak",
+    "slug": "hibachi-teriyaki-steak",
+    "name": "Hibachi/Teriyaki Steak",
+    "display_name": "Hibachi/Teriyaki Steak",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Hibachi",
+    "subcategory": null,
+    "item_type": "hibachi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/hibachi/hibachi-teriyaki-steak.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium hibachi/teriyaki steak.",
+    "description_long": "This hibachi/teriyaki steak offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [
+      "filet_mignon"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hibachi teriyaki steak"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hibachi-teriyaki-vegetable",
+    "slug": "hibachi-teriyaki-vegetable",
+    "name": "Hibachi/Teriyaki Vegetable",
+    "display_name": "Hibachi/Teriyaki Vegetable",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Hibachi",
+    "subcategory": null,
+    "item_type": "hibachi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/hibachi/hibachi-teriyaki-vegetable.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium hibachi/teriyaki vegetable.",
+    "description_long": "This hibachi/teriyaki vegetable offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hibachi teriyaki vegetable"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hibachi-teriyaki-chicken",
+    "slug": "hibachi-teriyaki-chicken",
+    "name": "Hibachi/Teriyaki Chicken",
+    "display_name": "Hibachi/Teriyaki Chicken",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Hibachi",
+    "subcategory": null,
+    "item_type": "hibachi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/hibachi/hibachi-teriyaki-chicken.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium hibachi/teriyaki chicken.",
+    "description_long": "This hibachi/teriyaki chicken offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [
+      "chicken"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hibachi teriyaki chicken"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "hibachi-teriyaki-shrimp",
+    "slug": "hibachi-teriyaki-shrimp",
+    "name": "Hibachi/Teriyaki Shrimp",
+    "display_name": "Hibachi/Teriyaki Shrimp",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Hibachi",
+    "subcategory": null,
+    "item_type": "hibachi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/hibachi/hibachi-teriyaki-shrimp.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium hibachi/teriyaki shrimp.",
+    "description_long": "This hibachi/teriyaki shrimp offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [
+      "shrimp"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "hibachi teriyaki shrimp"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "katsu-chicken",
+    "slug": "katsu-chicken",
+    "name": "Katsu Chicken",
+    "display_name": "Katsu Chicken",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Hibachi",
+    "subcategory": null,
+    "item_type": "hibachi",
+    "pieces": null,
+    "image": {
+      "main": "/menu/hibachi/katsu-chicken.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium katsu chicken.",
+    "description_long": "This katsu chicken offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [
+      "chicken"
+    ],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "katsu chicken"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "fried-rice",
+    "slug": "fried-rice",
+    "name": "Fried Rice",
+    "display_name": "Fried Rice",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Rice",
+    "subcategory": null,
+    "item_type": "rice",
+    "pieces": null,
+    "image": {
+      "main": "/menu/rice/fried-rice.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium fried rice.",
+    "description_long": "This fried rice offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "fried rice"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "white-rice",
+    "slug": "white-rice",
+    "name": "White Rice",
+    "display_name": "White Rice",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Rice",
+    "subcategory": null,
+    "item_type": "rice",
+    "pieces": null,
+    "image": {
+      "main": "/menu/rice/white-rice.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium white rice.",
+    "description_long": "This white rice offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "cooked",
+      "stir_fried"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "tender"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "white rice"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "mochi-ice-cream",
+    "slug": "mochi-ice-cream",
+    "name": "Mochi Ice Cream",
+    "display_name": "Mochi Ice Cream",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Dessert",
+    "subcategory": null,
+    "item_type": "dessert",
+    "pieces": null,
+    "image": {
+      "main": "/menu/dessert/mochi-ice-cream.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium mochi ice cream.",
+    "description_long": "This mochi ice cream offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [
+      "mochi",
+      "ice cream"
+    ],
+    "ingredients_inferred": [],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "sweet",
+      "creamy"
+    ],
+    "texture": [
+      "soft",
+      "creamy"
+    ],
+    "allergens": [
+      "milk",
+      "soy"
+    ],
+    "dietary_flags": [
+      "vegetarian"
+    ],
+    "menu_labels": [
+      "PREMIUM",
+      "VEG"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "mochi ice cream"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "soy-sauce",
+    "slug": "soy-sauce",
+    "name": "Soy Sauce",
+    "display_name": "Soy Sauce",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Condiments",
+    "subcategory": null,
+    "item_type": "sauce",
+    "pieces": null,
+    "image": {
+      "main": "/menu/condiments/soy-sauce.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium soy sauce.",
+    "description_long": "This soy sauce offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "sauce base"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "creamy"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "soy sauce"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "low-sodium-soy-sauce",
+    "slug": "low-sodium-soy-sauce",
+    "name": "Low Sodium Soy Sauce",
+    "display_name": "Low Sodium Soy Sauce",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Condiments",
+    "subcategory": null,
+    "item_type": "sauce",
+    "pieces": null,
+    "image": {
+      "main": "/menu/condiments/low-sodium-soy-sauce.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium low sodium soy sauce.",
+    "description_long": "This low sodium soy sauce offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "sauce base"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "creamy"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "low sodium soy sauce"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "gluten-free-soy-sauce",
+    "slug": "gluten-free-soy-sauce",
+    "name": "Gluten-Free Soy Sauce",
+    "display_name": "Gluten-Free Soy Sauce",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Condiments",
+    "subcategory": null,
+    "item_type": "sauce",
+    "pieces": null,
+    "image": {
+      "main": "/menu/condiments/gluten-free-soy-sauce.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium gluten-free soy sauce.",
+    "description_long": "This gluten-free soy sauce offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "sauce base"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "creamy"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "gluten free soy sauce"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "sriracha",
+    "slug": "sriracha",
+    "name": "Sriracha",
+    "display_name": "Sriracha",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Condiments",
+    "subcategory": null,
+    "item_type": "sauce",
+    "pieces": null,
+    "image": {
+      "main": "/menu/condiments/sriracha.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium sriracha.",
+    "description_long": "This sriracha offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "sauce base"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "creamy"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "sriracha"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "spicy-mayo",
+    "slug": "spicy-mayo",
+    "name": "Spicy Mayo",
+    "display_name": "Spicy Mayo",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Condiments",
+    "subcategory": null,
+    "item_type": "sauce",
+    "pieces": null,
+    "image": {
+      "main": "/menu/condiments/spicy-mayo.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium spicy mayo.",
+    "description_long": "This spicy mayo offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "sauce base"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "creamy"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "spicy mayo"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "eel-mayo",
+    "slug": "eel-mayo",
+    "name": "Eel Mayo",
+    "display_name": "Eel Mayo",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Condiments",
+    "subcategory": null,
+    "item_type": "sauce",
+    "pieces": null,
+    "image": {
+      "main": "/menu/condiments/eel-mayo.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium eel mayo.",
+    "description_long": "This eel mayo offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "sauce base"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "creamy"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "eel mayo"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  },
+  {
+    "id": "yum-yum-sauce",
+    "slug": "yum-yum-sauce",
+    "name": "Yum Yum Sauce",
+    "display_name": "Yum Yum Sauce",
+    "chinese_name": null,
+    "aliases": [],
+    "tier": [
+      "premium"
+    ],
+    "category": "Condiments",
+    "subcategory": null,
+    "item_type": "sauce",
+    "pieces": null,
+    "image": {
+      "main": "/menu/condiments/yum-yum-sauce.jpg",
+      "gallery": []
+    },
+    "description_short": "A premium yum yum sauce.",
+    "description_long": "This yum yum sauce offers a balanced and fresh profile. It highlights quality ingredients carefully prepared. Ideal for guests looking for a savory experience.",
+    "ingredients_known": [],
+    "ingredients_inferred": [
+      "sauce base"
+    ],
+    "proteins": [],
+    "vegetables": [],
+    "sauces": [],
+    "cooking_methods": [
+      "assembled"
+    ],
+    "flavor_profile": [
+      "savory"
+    ],
+    "texture": [
+      "creamy"
+    ],
+    "allergens": [],
+    "dietary_flags": [],
+    "menu_labels": [
+      "PREMIUM"
+    ],
+    "experience_tags": [],
+    "spice_level": 0,
+    "is_raw": false,
+    "beginner_friendly": true,
+    "limit_per_person": null,
+    "sashimi_surcharge": null,
+    "cultural_note": "",
+    "chef_note": "",
+    "search_keywords": [
+      "yum yum sauce"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "needs_review": false,
+      "review_notes": []
+    },
+    "image_status": "missing"
+  }
+]

@@ -1,8 +1,11 @@
+import { useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Utensils, Timer, Info, CheckCircle2, AlertCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import menuData from "../../data/menu-completed.json";
+import categoriesData from "../../data/menu-categories.json";
 
 const AYCE_TIERS = [
   {
@@ -53,33 +56,33 @@ const DINING_POLICIES = [
   "Raw or undercooked items may increase the risk of foodborne illness."
 ];
 
-const POPULAR_PICKS = [
-  {
-    name: "Dragon Roll",
-    desc: "Shrimp tempura and cucumber topped with eel and avocado.",
-    image: "https://images.unsplash.com/photo-1617196034096-16408bb58eae?q=80&w=1974&auto=format&fit=crop",
-    tag: "SIGNATURE",
-    tagColor: "bg-primary text-black"
-  },
-  {
-    name: "Spicy Tuna Roll",
-    desc: "Spicy tuna mixture with cucumber and spicy mayo.",
-    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop",
-    tag: "SPICY",
-    tagColor: "bg-orange-500 text-white"
-  }
-];
-
-const MENU_CATEGORIES = [
-  { name: "Rolls", img: "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop" },
-  { name: "Nigiri & Sashimi", img: "https://images.unsplash.com/photo-1534482421-64566f976cfa?q=80&w=1926&auto=format&fit=crop" },
-  { name: "Appetizers", img: "https://images.unsplash.com/photo-1547496614-411a0179f82d?q=80&w=2070&auto=format&fit=crop" },
-  { name: "Hibachi", img: "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?q=80&w=2080&auto=format&fit=crop" },
-  { name: "Noodles & Rice", img: "https://images.unsplash.com/photo-1552611052-3ba9d739a503?q=80&w=2080&auto=format&fit=crop" },
-  { name: "Desserts", img: "https://images.unsplash.com/photo-1553452118-621e1f860f43?q=80&w=1974&auto=format&fit=crop" }
-];
-
 export default function HomePage() {
+  const popularPicks = useMemo(() => {
+    // Select rolls (Classic Roll, Specialty Roll, etc.)
+    const rolls = menuData.filter((item: any) => item.category.toLowerCase().includes("roll") && item.name && item.description_short);
+    // Shuffle and pick 3
+    const shuffled = [...rolls].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 3).map((item: any) => ({
+      id: item.id,
+      name: item.name,
+      desc: item.description_short,
+      image: item.image?.main || "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop",
+      tag: (item.spice_level || 0) > 0 ? "SPICY" : item.is_raw ? "RAW" : "CHEF'S PICK",
+      tagColor: (item.spice_level || 0) > 0 ? "bg-orange-500 text-white" : item.is_raw ? "bg-red-500 text-white" : "bg-primary text-black"
+    }));
+  }, []);
+
+  const getCategoryFallbackImage = (categoryName: string) => {
+    const name = categoryName.toLowerCase();
+    if (name.includes("roll") || name.includes("sushi")) return "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop";
+    if (name.includes("nigiri") || name.includes("sashimi")) return "https://images.unsplash.com/photo-1534482421-64566f976cfa?q=80&w=1926&auto=format&fit=crop";
+    if (name.includes("appetizer") || name.includes("soup") || name.includes("salad")) return "https://images.unsplash.com/photo-1547496614-411a0179f82d?q=80&w=2070&auto=format&fit=crop";
+    if (name.includes("hibachi") || name.includes("entree") || name.includes("bento")) return "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?q=80&w=2080&auto=format&fit=crop";
+    if (name.includes("noodle") || name.includes("rice")) return "https://images.unsplash.com/photo-1552611052-3ba9d739a503?q=80&w=2080&auto=format&fit=crop";
+    if (name.includes("dessert")) return "https://images.unsplash.com/photo-1553452118-621e1f860f43?q=80&w=1974&auto=format&fit=crop";
+    return "https://images.unsplash.com/photo-1617196034096-16408bb58eae?q=80&w=1974&auto=format&fit=crop";
+  };
+
   return (
     <div className="space-y-0 bg-[#0f0f13]">
       {/* Hero Section */}
@@ -207,8 +210,8 @@ export default function HomePage() {
           <p className="text-sm text-slate-400">Start with guest favorites from our sushi and hibachi menu.</p>
         </div>
         <div className="flex gap-5 overflow-x-auto px-6 pb-6 scrollbar-hide snap-x">
-          {POPULAR_PICKS.map((item, i) => (
-            <Link to="/menu" key={i} className="group flex-none w-72 space-y-4 snap-start">
+          {popularPicks.map((item, i) => (
+            <Link to={`/menu/${item.id}`} key={i} className="group flex-none w-72 space-y-4 snap-start">
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-surface/50 border border-white/5">
                 {item.image ? (
                   <img 
@@ -236,7 +239,7 @@ export default function HomePage() {
               </div>
               <div className="px-1">
                 <h5 className="font-bold text-lg text-white mb-1 group-hover:text-primary transition-colors">{item.name}</h5>
-                <p className="text-sm text-slate-400 leading-relaxed">{item.desc}</p>
+                <p className="text-sm text-slate-400 leading-relaxed">{item.desc || ""}</p>
               </div>
             </Link>
           ))}
@@ -248,15 +251,15 @@ export default function HomePage() {
         <h3 className="mb-6 text-xs font-bold uppercase tracking-[0.2em] text-primary/80">
           Browse Categories
         </h3>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-          {MENU_CATEGORIES.map((cat) => (
-            <Link to="/menu" key={cat.name} className="relative flex h-28 sm:h-32 items-center justify-center overflow-hidden rounded-xl bg-surface/50 border border-white/5 group">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+          {categoriesData.filter(c => c.display_name !== "Dessert").map((cat) => (
+            <Link to={`/menu?category=${encodeURIComponent(cat.display_name)}`} key={cat.id} className="relative flex h-28 sm:h-32 items-center justify-center overflow-hidden rounded-xl bg-surface/50 border border-white/5 group">
               <div 
                 className="absolute inset-0 bg-cover bg-center opacity-50 transition-all duration-500 group-hover:opacity-40 group-hover:scale-105"
-                style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('${cat.img}')` }}
+                style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('${getCategoryFallbackImage(cat.display_name)}')` }}
               />
-              <span className="relative text-sm sm:text-base font-bold tracking-widest text-white text-center px-4 group-hover:text-primary transition-colors uppercase">
-                {cat.name}
+              <span className="relative text-sm sm:text-base font-bold tracking-widest text-white text-center px-4 group-hover:text-primary transition-colors uppercase z-10">
+                {cat.display_name}
               </span>
             </Link>
           ))}
