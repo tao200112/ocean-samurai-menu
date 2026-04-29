@@ -63,6 +63,12 @@ export default function MenuPage() {
     return "https://images.unsplash.com/photo-1617196034096-16408bb58eae?q=80&w=1974&auto=format&fit=crop";
   };
 
+  const getTierLabel = (item: any) => {
+    if (item.tier?.includes("supreme")) return "Supreme Menu";
+    if (item.tier?.includes("add_on")) return item.category === "Condiments" ? "Condiment" : "Add-on";
+    return "Premium Menu";
+  };
+
   return (
     <div className="flex flex-col h-full">
       {/* Category Tabs */}
@@ -140,6 +146,7 @@ export default function MenuPage() {
           {filteredItems.map((item: any) => {
             const displayTags = [];
             if (item.tier?.includes("supreme")) displayTags.push("Supreme");
+            else if (item.tier?.includes("add_on")) displayTags.push(item.category === "Condiments" ? "Condiment" : "Add-on");
             else if (item.tier?.includes("premium")) displayTags.push("Premium");
 
             if (item.is_raw) displayTags.push("Raw");
@@ -162,6 +169,7 @@ export default function MenuPage() {
                             "rounded-sm px-2 py-1 text-[10px] font-bold uppercase shadow-sm",
                             tag === "Supreme" ? "bg-orange-500 text-black border border-orange-500" :
                             tag === "Premium" ? "bg-primary text-black border border-primary" :
+                            tag === "Add-on" || tag === "Condiment" ? "bg-sky-500 text-black border border-sky-500" :
                             tag === "Raw" ? "bg-red-500 text-white" :
                             tag === "Spicy" ? "bg-orange-600 text-white" :
                             "bg-green-700 text-white"
@@ -176,7 +184,7 @@ export default function MenuPage() {
                     <div className="flex items-start justify-between">
                       <h3 className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors pr-2">{item.name}</h3>
                       <span className="font-bold text-primary whitespace-nowrap text-sm bg-primary/10 px-2 py-1 rounded-md">
-                        {item.tier?.includes("supreme") ? "Supreme Menu" : "Premium Menu"}
+                        {getTierLabel(item)}
                       </span>
                     </div>
                     <p className="text-sm leading-relaxed text-slate-300">

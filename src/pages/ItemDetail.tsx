@@ -35,6 +35,12 @@ export default function ItemDetailPage() {
   if ((item.spice_level || 0) > 0) displayTags.push("Spicy");
   if (item.dietary_flags?.includes("vegetarian")) displayTags.push("Vegetarian");
 
+  const tierLabel = item.tier?.includes("supreme")
+    ? "Supreme Menu"
+    : item.tier?.includes("add_on")
+      ? item.category === "Condiments" ? "Condiment" : "Add-on"
+      : "Premium Menu";
+
   return (
     <div className="flex flex-col space-y-6">
       <section className="px-4 py-4">
@@ -54,9 +60,11 @@ export default function ItemDetailPage() {
             <span className={cn("inline-flex items-center gap-1 rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-wider", 
               item.tier?.includes("supreme")
                 ? "bg-orange-500/10 border-orange-500/50 text-orange-500" 
+                : item.tier?.includes("add_on")
+                ? "bg-sky-500/10 border-sky-500/50 text-sky-400"
                 : "bg-primary/10 border-primary/50 text-primary"
             )}>
-              {item.tier?.includes("supreme") ? "Supreme Menu" : "Premium Menu"}
+              {tierLabel}
             </span>
           </div>
           <h1 className="text-4xl font-extrabold tracking-tight text-white">{item.name}</h1>

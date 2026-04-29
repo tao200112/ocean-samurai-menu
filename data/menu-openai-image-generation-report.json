@@ -1,0 +1,13 @@
+{
+  "generated": 120,
+  "skipped": 0,
+  "failed": [],
+  "baseUrl": "https://newapi.aisonnet.org/v1",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "low",
+  "concurrency": 3,
+  "offset": 0,
+  "limit": null,
+  "generatedAt": "2026-04-29T02:04:44.664Z"
+}

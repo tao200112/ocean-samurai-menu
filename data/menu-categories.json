@@ -44,6 +44,10 @@
     "display_name": "Dessert"
   },
   {
+    "id": "add-ons",
+    "display_name": "Add-ons"
+  },
+  {
     "id": "condiments",
     "display_name": "Condiments"
   }
