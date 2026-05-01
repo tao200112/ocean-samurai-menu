@@ -77,7 +77,7 @@ export default function HomePage() {
     if (name.includes("roll") || name.includes("sushi")) return "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop";
     if (name.includes("nigiri") || name.includes("sashimi")) return "https://images.unsplash.com/photo-1534482421-64566f976cfa?q=80&w=1926&auto=format&fit=crop";
     if (name.includes("appetizer") || name.includes("soup") || name.includes("salad")) return "https://images.unsplash.com/photo-1547496614-411a0179f82d?q=80&w=2070&auto=format&fit=crop";
-    if (name.includes("hibachi") || name.includes("entree") || name.includes("bento")) return "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?q=80&w=2080&auto=format&fit=crop";
+    if (name.includes("hibachi") || name.includes("teriyaki") || name.includes("entree") || name.includes("bento")) return "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?q=80&w=2080&auto=format&fit=crop";
     if (name.includes("noodle") || name.includes("rice")) return "https://images.unsplash.com/photo-1552611052-3ba9d739a503?q=80&w=2080&auto=format&fit=crop";
     if (name.includes("dessert")) return "https://images.unsplash.com/photo-1553452118-621e1f860f43?q=80&w=1974&auto=format&fit=crop";
     return "https://images.unsplash.com/photo-1617196034096-16408bb58eae?q=80&w=1974&auto=format&fit=crop";

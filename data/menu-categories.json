@@ -32,6 +32,10 @@
     "display_name": "Hibachi"
   },
   {
+    "id": "teriyaki",
+    "display_name": "Teriyaki"
+  },
+  {
     "id": "noodles",
     "display_name": "Noodles"
   },
