@@ -12,21 +12,20 @@ const AYCE_TIERS = [
     id: "premium",
     name: "Premium",
     price: "$25.99",
-    description: "A broad AYCE selection with sushi, rolls, appetizers, and hot dishes."
+    description: "88 items with sushi, rolls, appetizers, hibachi, noodles, rice, and dessert."
   },
   {
     id: "supreme",
     name: "Supreme",
-    price: "$35.99",
-    description: "The full AYCE experience with premium seafood and specialty selections.",
-    highlight: true
+    price: "$39.99",
+    description: "110 items, including Premium plus extra seafood, specialty rolls, and select hibachi items."
   }
 ];
 
 const AYCE_STEPS = [
   {
     title: "Two AYCE Tiers",
-    description: "Choose Premium or Supreme before ordering.",
+    description: "The whole party must order the same priced AYCE course.",
     icon: Utensils
   },
   {
@@ -36,24 +35,28 @@ const AYCE_STEPS = [
   },
   {
     title: "4 Items at a Time",
-    description: "Each guest may order up to 4 items per round.",
+    description: "Only 4 items will be served per person at a time.",
     icon: CheckCircle2
   },
   {
     title: "Finish What You Order",
-    description: "Unfinished food may be charged at menu price.",
+    description: "Unfinished food will be charged at menu prices.",
     icon: AlertCircle
   }
 ];
 
 const DINING_POLICIES = [
-  "Last call is 20 minutes before the time limit ends.",
-  "Whole table must choose the same AYCE course.",
-  "Some substitutions may have an extra charge.",
-  "Last seating is 90 minutes before closing.",
-  "18% gratuity added to parties of 5 or more.",
-  "Please inform staff of allergies or dietary restrictions.",
-  "Raw or undercooked items may increase the risk of foodborne illness."
+  "Time limit: 100 minutes, starting with the first order.",
+  "Last call: 20 minutes prior to the time limit.",
+  "Only 4 items will be served per person at a time.",
+  "Whole party must order the same priced all you can eat course.",
+  "Unfinished food will be charged at menu prices.",
+  "Some substitutions will have a surcharge; please ask your server or manager before making requests.",
+  "Last seating is 90 minutes before closing time.",
+  "Other rules and restrictions may apply.",
+  "18% gratuity will be added to parties of 5 or more.",
+  "Please advise us of any food allergies or diets.",
+  "Consuming raw or undercooked items may increase the risk of foodborne illness."
 ];
 
 export default function HomePage() {
@@ -103,8 +106,9 @@ export default function HomePage() {
           <p className="text-base sm:text-lg text-slate-300 max-w-md leading-relaxed">
             Choose Premium or Supreme, explore your favorites, and enjoy 100 minutes of AYCE dining.
           </p>
-          <p className="text-xl sm:text-2xl font-bold tracking-wide text-primary">
-            Premium $25.99 <span className="mx-3 text-white/30">•</span> Supreme $35.99
+          <p className="flex flex-wrap gap-x-4 gap-y-1 text-xl sm:text-2xl font-bold tracking-wide text-primary">
+            <span>Premium $25.99</span>
+            <span>Supreme $39.99</span>
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3 pt-4">
             <Button className="w-full sm:w-auto h-14 px-8 font-bold text-black text-lg shadow-xl shadow-primary/20" asChild>
@@ -118,7 +122,7 @@ export default function HomePage() {
             </Button>
           </div>
           <p className="text-[10px] text-white/50 uppercase tracking-widest mt-6">
-            * Same table must choose the same AYCE course
+            * Whole party must order the same priced AYCE course
           </p>
         </div>
       </section>
@@ -130,21 +134,16 @@ export default function HomePage() {
         </h3>
         <div className="flex flex-col sm:flex-row gap-6">
           {AYCE_TIERS.map((tier) => (
-            <Card key={tier.id} className={cn("flex-1 overflow-hidden border-white/5 bg-surface/50 backdrop-blur transition-all hover:border-white/20", tier.highlight && "ring-1 ring-primary/40 relative shadow-2xl shadow-primary/5")}>
-              {tier.highlight && (
-                <div className="absolute top-0 right-0 rounded-bl-lg bg-primary px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-black z-10">
-                  Recommended
-                </div>
-              )}
+            <Card key={tier.id} className="flex-1 overflow-hidden border-white/5 bg-surface/50 backdrop-blur transition-all hover:border-white/20">
               <div className="p-6 h-full flex flex-col">
-                <div className="flex items-end justify-between mb-4">
+                <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
                   <h4 className="text-2xl font-bold text-white tracking-tight">{tier.name}</h4>
                   <span className="text-xl font-extrabold text-primary">{tier.price}</span>
                 </div>
                 <p className="text-sm text-slate-300 leading-relaxed mb-8 flex-grow">
                   {tier.description}
                 </p>
-                <Button variant={tier.highlight ? "default" : "secondary"} className={cn("w-full gap-2 font-bold", tier.highlight ? "text-black" : "text-white bg-white/5 hover:bg-white/10")} asChild>
+                <Button variant="secondary" className="w-full gap-2 bg-white/5 font-bold text-white hover:bg-white/10" asChild>
                   <Link to={`/guide#${tier.id}`}>
                     Explore {tier.name}
                     <ArrowRight className="h-4 w-4" />
@@ -194,8 +193,8 @@ export default function HomePage() {
             <ul className="space-y-4">
               {DINING_POLICIES.map((policy, i) => (
                 <li key={i} className="flex gap-4 text-sm text-slate-300 leading-relaxed items-start">
-                  <span className="text-primary mt-1 shrink-0">•</span>
-                  {policy}
+                  <span className="text-primary mt-1 shrink-0">-</span>
+                  <span className="min-w-0 break-words">{policy}</span>
                 </li>
               ))}
             </ul>

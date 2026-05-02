@@ -17,16 +17,16 @@ import { cn } from "@/lib/utils";
 // ------------------------------------------------------------------
 
 const AYCE_RULES = [
-  { text: "Dining time limit: 100 minutes", bold: "100 minutes" },
-  { text: "Time begins when the first order is placed", bold: "first order is placed" },
-  { text: "Last call is 20 minutes before the time limit ends", bold: "Last call is 20 minutes before" },
-  { text: "Up to 4 items per person will be served at one time", bold: "Up to 4 items per person" },
-  { text: "Everyone at the same table must order the same AYCE tier", bold: "Everyone at the same table must order the same AYCE tier" },
-  { text: "Unfinished food may be charged at menu prices", bold: "Unfinished food may be charged at menu prices" },
-  { text: "Some substitutions may require an extra charge", bold: "extra charge" },
-  { text: "Last seating is 90 minutes before closing", bold: "Last seating is 90 minutes before closing" },
-  { text: "18% gratuity is automatically added to parties of 5 or more", bold: "18% gratuity is automatically added to parties of 5 or more" },
-  { text: "Please inform your server of any allergies or dietary restrictions", bold: "any allergies or dietary restrictions" }
+  { text: "Time limit: 100 minutes, starting with the first order", bold: "100 minutes" },
+  { text: "Last call: 20 minutes prior to the time limit", bold: "20 minutes prior" },
+  { text: "Only 4 items will be served per person at a time", bold: "Only 4 items" },
+  { text: "Whole party must order the same priced all you can eat course", bold: "same priced" },
+  { text: "Unfinished food will be charged at menu prices", bold: "charged at menu prices" },
+  { text: "Some substitutions will have a surcharge; please ask your server or manager before making requests", bold: "surcharge" },
+  { text: "Last seating is 90 minutes before closing time", bold: "90 minutes before closing" },
+  { text: "Other rules and restrictions may apply", bold: "Other rules and restrictions" },
+  { text: "18% gratuity will be added to parties of 5 or more", bold: "18% gratuity" },
+  { text: "Please advise us of any food allergies or diets", bold: "food allergies or diets" }
 ];
 
 const AYCE_TIERS = [
@@ -34,20 +34,19 @@ const AYCE_TIERS = [
     id: "premium",
     name: "Premium",
     price: "$25.99",
-    desc: "A wide selection of sushi, rolls, appetizers, and hibachi dishes."
+    desc: "88 items with sushi, rolls, appetizers, hibachi, noodles, rice, and dessert."
   },
   {
     id: "supreme",
     name: "Supreme",
-    price: "$35.99",
-    desc: "Includes everything in Premium plus additional premium seafood and specialty selections.",
-    highlight: true
+    price: "$39.99",
+    desc: "110 items, including Premium plus extra seafood, specialty rolls, and select hibachi items."
   }
 ];
 
 const MENU_LABELS = [
   { label: "Raw", desc: "Contains raw fish or seafood.", color: "bg-red-500", icon: Fish },
-  { label: "Spicy", desc: "Prepared with chili, sriracha, jalapeño, or spicy sauce.", color: "bg-orange-600", icon: Flame },
+  { label: "Spicy", desc: "Prepared with chili, sriracha, jalapeno, or spicy sauce.", color: "bg-orange-600", icon: Flame },
   { label: "Veg", desc: "Vegetarian friendly item.", color: "bg-green-700", icon: Leaf },
   { label: "Tempura", desc: "Deep-fried in a light Japanese batter.", color: "bg-yellow-600", icon: Flame },
   { label: "Premium", desc: "Available with the Premium AYCE tier.", color: "bg-primary border border-primary text-black", icon: Star },
@@ -55,9 +54,9 @@ const MENU_LABELS = [
 ];
 
 const ORDERING_STEPS = [
-  { step: 1, title: "Choose Your Tier", desc: "Select either Premium or Supreme for the entire table." },
+  { step: 1, title: "Choose Your Tier", desc: "The whole party must order the same priced AYCE course." },
   { step: 2, title: "Start Small", desc: "Begin with a few dishes to explore the menu." },
-  { step: 3, title: "Order Per Round", desc: "Each person may order up to 4 items per round." },
+  { step: 3, title: "Order Per Round", desc: "Only 4 items will be served per person at a time." },
   { step: 4, title: "Pace Yourself", desc: "Order additional rounds after finishing your current dishes." },
   { step: 5, title: "Explore", desc: "Try different sushi, hibachi, and appetizers throughout your 100 minutes." }
 ];
@@ -114,12 +113,12 @@ export default function GuidePage() {
   };
 
   return (
-    <div className="space-y-16 pb-20 bg-[#0f0f13]">
+    <div className="space-y-16 overflow-x-hidden pb-20 bg-[#0f0f13]">
       
       {/* 1. DINING RULES */}
       <section className="pt-12 px-6">
         <div className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-4">
+          <h1 className="break-words text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-4">
             All You Can Eat Dining Guide
           </h1>
           <p className="text-slate-300 text-base max-w-lg mx-auto leading-relaxed">
@@ -132,7 +131,7 @@ export default function GuidePage() {
             {AYCE_RULES.map((rule, idx) => (
               <li key={idx} className="flex gap-4 items-start">
                 <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                <span className="text-slate-300 text-sm md:text-base leading-relaxed">
+                <span className="min-w-0 break-words text-slate-300 text-sm md:text-base leading-relaxed">
                   {highlightText(rule.text, rule.bold)}
                 </span>
               </li>
@@ -142,7 +141,7 @@ export default function GuidePage() {
           <div className="mt-8 pt-6 border-t border-primary/20 flex gap-4 items-start">
             <AlertCircle className="w-6 h-6 text-red-400 shrink-0" />
             <p className="text-sm text-red-200/80 leading-relaxed font-medium">
-              Important note: Consuming raw or undercooked seafood may increase the risk of foodborne illness.
+              Important note: Consuming raw or undercooked items may increase the risk of foodborne illness.
             </p>
           </div>
         </div>
@@ -152,7 +151,7 @@ export default function GuidePage() {
       <section id="tiers" className="px-6 scroll-mt-24">
         <div className="flex items-center gap-3 mb-8 justify-center">
           <Star className="w-6 h-6 text-primary" />
-          <h2 className="text-2xl font-bold text-white uppercase tracking-widest text-center">
+          <h2 className="break-words text-2xl font-bold text-white uppercase tracking-widest text-center">
             Choose Your AYCE Experience
           </h2>
           <Star className="w-6 h-6 text-primary" />
@@ -163,18 +162,8 @@ export default function GuidePage() {
             <div 
               key={tier.id} 
               id={tier.id}
-              className={cn(
-                "rounded-2xl p-6 sm:p-8 flex flex-col justify-between border transition-all",
-                tier.highlight 
-                  ? "bg-gradient-to-br from-surface to-primary/10 border-primary/40 shadow-2xl shadow-primary/10 relative" 
-                  : "bg-surface border-white/10"
-              )}
+              className="rounded-2xl border border-white/10 bg-surface p-6 transition-all sm:p-8"
             >
-              {tier.highlight && (
-                <div className="absolute -top-3 left-6 bg-primary text-black font-bold text-[10px] uppercase tracking-widest px-3 py-1 rounded">
-                  Recommended
-                </div>
-              )}
               <div>
                 <h3 className="text-3xl font-extrabold text-white mb-2">{tier.name}</h3>
                 <p className="text-2xl font-bold text-primary mb-6">{tier.price}</p>
@@ -192,7 +181,7 @@ export default function GuidePage() {
 
       {/* 3. MENU LABEL SYSTEM */}
       <section className="px-6">
-        <h2 className="text-2xl font-bold text-white uppercase tracking-widest text-center mb-4">
+          <h2 className="break-words text-2xl font-bold text-white uppercase tracking-widest text-center mb-4">
           Understanding Menu Labels
         </h2>
         <p className="text-center text-slate-300 text-base max-w-lg mx-auto leading-relaxed mb-8">
@@ -221,7 +210,7 @@ export default function GuidePage() {
 
       {/* 4. HOW TO ORDER AYCE */}
       <section className="px-6 py-12 bg-white/[0.02] border-y border-white/5">
-        <h2 className="text-2xl font-bold text-white uppercase tracking-widest text-center mb-10">
+        <h2 className="break-words text-2xl font-bold text-white uppercase tracking-widest text-center mb-10">
           How to Enjoy AYCE
         </h2>
         
@@ -232,7 +221,7 @@ export default function GuidePage() {
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-black font-extrabold text-xl shrink-0 z-10 shadow-lg shadow-primary/20">
                   {step.step}
                 </div>
-                <div className="pt-2">
+                <div className="min-w-0 pt-2">
                   <h3 className="text-lg font-bold text-white mb-2">{step.title}</h3>
                   <p className="text-slate-400 text-sm leading-relaxed">{step.desc}</p>
                 </div>
@@ -243,7 +232,7 @@ export default function GuidePage() {
           <div className="mt-12 p-6 rounded-xl border border-primary/20 bg-primary/5 flex items-start gap-4">
             <Info className="w-6 h-6 text-primary shrink-0" />
             <p className="text-sm text-primary/90 italic leading-relaxed">
-              Tip: Ordering gradually helps reduce food waste and ensures the best dining experience. Unfinished items may be charged at menu price!
+              Tip: Ordering gradually helps reduce food waste and ensures the best dining experience. Unfinished food will be charged at menu prices.
             </p>
           </div>
         </div>
@@ -251,7 +240,7 @@ export default function GuidePage() {
 
       {/* 5. SUSHI BASICS */}
       <section className="px-6">
-        <h2 className="text-2xl font-bold text-white uppercase tracking-widest text-center mb-10">
+        <h2 className="break-words text-2xl font-bold text-white uppercase tracking-widest text-center mb-10">
           Sushi Basics
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -274,7 +263,7 @@ export default function GuidePage() {
 
       {/* 6. POPULAR SUSHI FISH GUIDE */}
       <section className="px-6">
-        <h2 className="text-2xl font-bold text-white uppercase tracking-widest text-center mb-10">
+        <h2 className="break-words text-2xl font-bold text-white uppercase tracking-widest text-center mb-10">
           Popular Sushi Fish Guide
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
@@ -299,7 +288,7 @@ export default function GuidePage() {
             <ul className="space-y-4">
               {['Respect for freshness', 'Balance of flavor and texture', 'Small dishes meant for sharing', 'Appreciation for seasonal ingredients'].map((item, i) => (
                 <li key={i} className="flex gap-3 text-slate-300 text-sm">
-                  <span className="text-primary">•</span>
+                  <span className="text-primary">-</span>
                   {item}
                 </li>
               ))}

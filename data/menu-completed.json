@@ -687,7 +687,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Marinated seafood salads highlight the Japanese commitment to precise texture and balanced marinades.",
-    "chef_note": "For those who appreciate varied textures—the squid provides a wonderful, gentle chew.",
+    "chef_note": "For those who appreciate varied textures - the squid provides a wonderful, gentle chew.",
     "search_keywords": [
       "squid salad",
       "salads",
@@ -986,7 +986,7 @@
       "gallery": []
     },
     "description_short": "Steamed edamame pods lightly seasoned with sea salt.",
-    "description_long": "Freshly steamed edamame pods gently tossed in sea salt. A classic, nutritious, and subtly sweet appetizer that’s fun to eat.",
+    "description_long": "Freshly steamed edamame pods gently tossed in sea salt. A classic, nutritious, and subtly sweet appetizer that's fun to eat.",
     "ingredients_known": [
       "edamame",
       "sea salt"
@@ -1215,8 +1215,8 @@
   {
     "id": "jalapeo-yellowtail",
     "slug": "jalapeo-yellowtail",
-    "name": "Jalapeño Yellowtail",
-    "display_name": "Jalapeño Yellowtail",
+    "name": "Jalapeno Yellowtail",
+    "display_name": "Jalapeno Yellowtail",
     "chinese_name": null,
     "aliases": [
       "Jalapeno Yellowtail"
@@ -1232,11 +1232,11 @@
       "main": "/menu/appetizers/jalapeo-yellowtail.jpg",
       "gallery": []
     },
-    "description_short": "Raw yellowtail slices with jalapeño and ponzu sauce.",
-    "description_long": "Sliced yellowtail & jalapeño, drizzled with ponzu sauce",
+    "description_short": "Raw yellowtail slices with jalapeno and ponzu sauce.",
+    "description_long": "Sliced yellowtail & jalapeno, drizzled with ponzu sauce",
     "ingredients_known": [
       "yellowtail",
-      "jalapeño",
+      "jalapeno",
       "ponzu sauce"
     ],
     "ingredients_inferred": [],
@@ -1244,7 +1244,7 @@
       "yellowtail"
     ],
     "vegetables": [
-      "jalapeño"
+      "jalapeno"
     ],
     "sauces": [
       "ponzu sauce"
@@ -1281,14 +1281,14 @@
     "beginner_friendly": false,
     "limit_per_person": null,
     "sashimi_surcharge": null,
-    "cultural_note": "Pairing rich fish like Hamachi with citrus (ponzu) and heat (jalapeño) is a modern classic popularized in the late 20th century.",
+    "cultural_note": "Pairing rich fish like Hamachi with citrus (ponzu) and heat (jalapeno) is a modern classic popularized in the late 20th century.",
     "chef_note": "Eat this in one bite to experience the contrast of the rich fish and the sharp pepper.",
     "search_keywords": [
-      "jalape o yellowtail",
+      "jalapeno yellowtail",
       "appetizers",
       "yellowtail",
       "tai",
-      "jalape o",
+      "jalapeno",
       "ponzu sauce",
       "ponzu",
       "jalapeno yellowtail"
@@ -1304,7 +1304,7 @@
       "source_rule": "Item list and tier follow supplied menu images; ingredients, labels, and descriptions are refined from item names and common restaurant usage."
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Jalapeño Yellowtail. Must visibly include: yellowtail, tai, jalapeño, ponzu sauce, ponzu. Show a subtle spicy visual cue such as red sauce or chili garnish. Composition: Japanese restaurant menu plating, appetizing, clean plating, square crop. Lighting: soft studio restaurant lighting, realistic food photography. Avoid: text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Jalapeno Yellowtail. Must visibly include: yellowtail, tai, jalapeno, ponzu sauce, ponzu. Show a subtle spicy visual cue such as red sauce or chili garnish. Composition: Japanese restaurant menu plating, appetizing, clean plating, square crop. Lighting: soft studio restaurant lighting, realistic food photography. Avoid: text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "shrimp-shumai-dumplings",
@@ -1627,7 +1627,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Takoyaki is the quintessential street food of Osaka, beloved for its comforting warmth and rich umami.",
-    "chef_note": "They are served piping hot—pierce them to let a little steam out before taking a bite.",
+    "chef_note": "They are served piping hot - pierce them to let a little steam out before taking a bite.",
     "search_keywords": [
       "takoyaki ball",
       "appetizers",
@@ -3124,7 +3124,7 @@
     "limit_per_person": 1,
     "sashimi_surcharge": null,
     "cultural_note": "Ikura is often marinated in soy sauce and sake, a technique that enhances its natural savory depth.",
-    "chef_note": "Let the pearls burst naturally—avoid pressing them with your tongue too aggressively.",
+    "chef_note": "Let the pearls burst naturally - avoid pressing them with your tongue too aggressively.",
     "search_keywords": [
       "ikura",
       "salmon roe",
@@ -3287,7 +3287,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": 1,
     "cultural_note": "Tako must be massaged or gently simmered to tenderize the meat while maintaining its signature texture.",
-    "chef_note": "Appreciate the distinct, firm texture—a hallmark of traditional Japanese seafood preparation.",
+    "chef_note": "Appreciate the distinct, firm texture - a hallmark of traditional Japanese seafood preparation.",
     "search_keywords": [
       "tako",
       "octopus",
@@ -3714,7 +3714,7 @@
     "beginner_friendly": true,
     "limit_per_person": null,
     "sashimi_surcharge": null,
-    "cultural_note": "Invented in the late 1960s in North America, the California Roll was instrumental in popularizing sushi globally.",
+    "cultural_note": "Inventreeeed in the late 1960s in North America, the California Roll was instrumental in popularizing sushi globally.",
     "chef_note": "The ideal roll for a light lunch or for introducing someone to rolled sushi.",
     "search_keywords": [
       "california roll",
@@ -4301,7 +4301,7 @@
     "beginner_friendly": true,
     "limit_per_person": null,
     "sashimi_surcharge": null,
-    "cultural_note": "A testament to sushi’s adaptability, this roll merges traditional Japanese rolling techniques with beloved North American ingredients.",
+    "cultural_note": "A testament to sushi's adaptability, this roll merges traditional Japanese rolling techniques with beloved North American ingredients.",
     "chef_note": "Its richness makes it a very filling choice; consider pairing it with a lighter, vegetable-based roll.",
     "search_keywords": [
       "philadelphia roll",
@@ -5796,7 +5796,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Specialty rolls reflect the modern global evolution of traditional Japanese sushi techniques.",
-    "chef_note": "Recommended for the adventurous diner looking for modern flair.",
+    "chef_note": "Built for diners who enjoy bold flavors and modern flair.",
     "search_keywords": [
       "cowboy roll",
       "special rolls",
@@ -5990,7 +5990,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Specialty rolls reflect the modern global evolution of traditional Japanese sushi techniques.",
-    "chef_note": "Recommended for the adventurous diner looking for modern flair.",
+    "chef_note": "Built for diners who enjoy bold flavors and modern flair.",
     "search_keywords": [
       "fire cracker roll",
       "special rolls",
@@ -6368,7 +6368,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Specialty rolls reflect the modern global evolution of traditional Japanese sushi techniques.",
-    "chef_note": "Recommended for the adventurous diner looking for modern flair.",
+    "chef_note": "Built for diners who enjoy bold flavors and modern flair.",
     "search_keywords": [
       "greensboro roll",
       "special rolls",
@@ -7751,7 +7751,7 @@
     "limit_per_person": 1,
     "sashimi_surcharge": null,
     "cultural_note": "The term \"teriyaki\" refers to a cooking method (yaki) involving a glaze of soy sauce, mirin, and sugar that gives a shine (teri).",
-    "chef_note": "A highly satisfying entrée. Pairs perfectly with hibachi vegetables or fried rice.",
+    "chef_note": "A highly satisfying entree. Pairs perfectly with hibachi vegetables or fried rice.",
     "search_keywords": [
       "hibachi filet mignon",
       "hibachi",
@@ -7767,7 +7767,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Filet Mignon. Must visibly include: filet mignon, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Filet Mignon. Must visibly include: filet mignon, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "hibachi-scallop",
@@ -7866,7 +7866,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Scallop. Must visibly include: scallop, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Scallop. Must visibly include: scallop, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "hibachi-chicken",
@@ -7963,7 +7963,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Chicken. Must visibly include: chicken, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Chicken. Must visibly include: chicken, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "hibachi-shrimp",
@@ -8061,7 +8061,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Shrimp. Must visibly include: shrimp, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Shrimp. Must visibly include: shrimp, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "hibachi-steak",
@@ -8158,7 +8158,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Steak. Must visibly include: steak, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Steak. Must visibly include: steak, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "hibachi-vegetable",
@@ -8239,7 +8239,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Showcasing the natural sweetness of vegetables through precise high-heat grilling.",
-    "chef_note": "A fantastic, filling vegetarian option that doesn’t compromise on savory depth.",
+    "chef_note": "A fantastic, filling vegetarian option that doesn't compromise on savory depth.",
     "search_keywords": [
       "hibachi vegetable",
       "hibachi",
@@ -8255,7 +8255,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Vegetable. Must visibly include: mixed vegetables, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Hibachi Vegetable. Must visibly include: mixed vegetables, zucchini, onion, broccoli, carrot, sesame seeds, hibachi sauce. Generous hibachi entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "katsu-chicken",
@@ -8597,7 +8597,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Combining teppanyaki-style steak with street-style noodles creates a modern, hearty hybrid dish.",
-    "chef_note": "The steak juices deeply flavor the noodles—a highly satisfying meal.",
+    "chef_note": "The steak juices deeply flavor the noodles - a highly satisfying meal.",
     "search_keywords": [
       "yakisoba steak",
       "yakisoba",
@@ -8689,7 +8689,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Yakisoba is a staple at Japanese summer festivals (matsuri), revered for its savory, caramelized aromas.",
-    "chef_note": "A robust and filling entrée. Add a dash of sriracha if you enjoy a little heat.",
+    "chef_note": "A robust and filling entree. Add a dash of sriracha if you enjoy a little heat.",
     "search_keywords": [
       "yakisoba vegetable",
       "yakisoba",
@@ -8779,7 +8779,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Japanese-style fried rice (chahan) often uses short-grain rice, giving it a slightly chewier, pleasing texture.",
-    "chef_note": "An essential upgrade to any hibachi or teriyaki entrée.",
+    "chef_note": "An essential upgrade to any hibachi or teriyaki entree.",
     "search_keywords": [
       "fried rice",
       "rice",
@@ -11211,7 +11211,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Tako must be massaged or gently simmered to tenderize the meat while maintaining its signature texture.",
-    "chef_note": "Appreciate the distinct, firm texture—a hallmark of traditional Japanese seafood preparation.",
+    "chef_note": "Appreciate the distinct, firm texture - a hallmark of traditional Japanese seafood preparation.",
     "search_keywords": [
       "tako",
       "octopus",
@@ -11656,7 +11656,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Chicken. Must visibly include: chicken, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Chicken. Must visibly include: chicken, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "teriyaki-shrimp",
@@ -11753,7 +11753,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Shrimp. Must visibly include: shrimp, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Shrimp. Must visibly include: shrimp, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "teriyaki-steak",
@@ -11849,7 +11849,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Steak. Must visibly include: steak, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Steak. Must visibly include: steak, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "teriyaki-vegetable",
@@ -11929,7 +11929,7 @@
     "limit_per_person": null,
     "sashimi_surcharge": null,
     "cultural_note": "Showcasing the natural sweetness of vegetables through precise high-heat grilling.",
-    "chef_note": "A fantastic, filling vegetarian option that doesn’t compromise on savory depth.",
+    "chef_note": "A fantastic, filling vegetarian option that doesn't compromise on savory depth.",
     "search_keywords": [
       "teriyaki vegetable",
       "teriyaki",
@@ -11945,7 +11945,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Vegetable. Must visibly include: mixed vegetables, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Vegetable. Must visibly include: mixed vegetables, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "teriyaki-filet-mignon",
@@ -12026,7 +12026,7 @@
     "limit_per_person": 1,
     "sashimi_surcharge": null,
     "cultural_note": "The term \"teriyaki\" refers to a cooking method (yaki) involving a glaze of soy sauce, mirin, and sugar that gives a shine (teri).",
-    "chef_note": "A highly satisfying entrée. Pairs perfectly with hibachi vegetables or fried rice.",
+    "chef_note": "A highly satisfying entree. Pairs perfectly with hibachi vegetables or fried rice.",
     "search_keywords": [
       "teriyaki filet mignon",
       "teriyaki",
@@ -12042,7 +12042,7 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Filet Mignon. Must visibly include: filet mignon, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Filet Mignon. Must visibly include: filet mignon, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   },
   {
     "id": "teriyaki-scallop",
@@ -12140,6 +12140,6 @@
       "last_refined_section": "hibachi-teriyaki-split"
     },
     "image_status": "generated_openai",
-    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Scallop. Must visibly include: scallop, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entree portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
+    "image_prompt": "Photorealistic Japanese restaurant menu photo of Teriyaki Scallop. Must visibly include: scallop, zucchini, onion, broccoli, carrot, glossy teriyaki sauce, sesame seeds. Generous teriyaki entreeeee portion on a dark plate, square crop. Avoid text, logo, watermark, hands, menu board, price, labels."
   }
 ]

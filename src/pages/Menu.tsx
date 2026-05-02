@@ -70,7 +70,7 @@ export default function MenuPage() {
   };
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex h-full min-w-0 flex-col overflow-x-hidden">
       {/* Category Tabs */}
       <div className="sticky top-[64px] z-40 border-b border-white/5 bg-background/95 backdrop-blur-md">
         <div className="flex overflow-x-auto px-4 pb-0 pt-2 scrollbar-hide">
@@ -154,8 +154,8 @@ export default function MenuPage() {
             if (item.dietary_flags?.includes("vegetarian")) displayTags.push("Veg");
             
             return (
-              <Link to={`/menu/${item.id}`} key={item.id} className="block group">
-                <Card className="overflow-hidden border-white/5 bg-surface transition-all hover:border-primary/20">
+              <Link to={`/menu/${item.id}`} key={item.id} className="block min-w-0 group">
+                <Card className="min-w-0 overflow-hidden border-white/5 bg-surface transition-all hover:border-primary/20">
                   <div className="relative h-56 w-full overflow-hidden">
                     <div 
                       className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -180,14 +180,14 @@ export default function MenuPage() {
                       ))}
                     </div>
                   </div>
-                  <div className="p-4 space-y-2">
-                    <div className="flex items-start justify-between">
-                      <h3 className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors pr-2">{item.name}</h3>
-                      <span className="font-bold text-primary whitespace-nowrap text-sm bg-primary/10 px-2 py-1 rounded-md">
+                  <div className="min-w-0 p-4 space-y-2">
+                    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                      <h3 className="min-w-0 break-words text-xl font-bold text-primary transition-colors group-hover:text-primary/80">{item.name}</h3>
+                      <span className="w-fit shrink-0 whitespace-nowrap rounded-md bg-primary/10 px-2 py-1 text-sm font-bold text-primary">
                         {getTierLabel(item)}
                       </span>
                     </div>
-                    <p className="text-sm leading-relaxed text-slate-300">
+                    <p className="break-words text-sm leading-relaxed text-slate-300">
                       {item.description_short}
                     </p>
                     {item.proteins && item.proteins.length > 0 && (

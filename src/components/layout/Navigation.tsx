@@ -7,14 +7,14 @@ export function TopNav() {
   const [showLangMenu, setShowLangMenu] = useState(false);
   const [currentLang, setCurrentLang] = useState("English");
   
-  const languages = ["English", "中文", "Español"];
+  const languages = ["English", "Chinese", "Spanish"];
 
   return (
-    <header className="sticky top-0 z-50 flex items-center justify-between border-b border-white/5 bg-background/95 px-4 py-3 backdrop-blur-md">
-      <div className="flex items-center gap-3">
+    <header className="sticky top-0 z-50 flex items-center justify-between gap-3 border-b border-white/5 bg-background/95 px-4 py-3 backdrop-blur-md">
+      <div className="flex min-w-0 items-center gap-3">
         {/* Logo Image */}
         <img src="/logo.png" alt="Ocean Samurai Logo" className="h-10 w-10 object-contain rounded-full shadow-[0_0_15px_rgba(56,189,248,0.2)]" />
-        <h1 className="text-xl font-bold uppercase tracking-wider text-white">
+        <h1 className="truncate text-xl font-bold uppercase tracking-wider text-white">
           Ocean Samurai
         </h1>
       </div>

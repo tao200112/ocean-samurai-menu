@@ -3,7 +3,7 @@ import { TopNav, BottomNav } from "./Navigation";
 
 export default function Layout() {
   return (
-    <div className="flex min-h-screen flex-col bg-background text-foreground">
+    <div className="flex min-h-screen flex-col overflow-x-hidden bg-background text-foreground">
       <TopNav />
       <main className="flex-1 pb-24">
         <Outlet />
