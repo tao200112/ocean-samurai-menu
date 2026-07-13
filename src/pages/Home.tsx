@@ -6,13 +6,12 @@ import {
   MapPin,
   Phone,
   ShipWheel,
-  ShoppingBag,
   Sparkles,
   Users,
   Waves,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { ORDER_SELECTION_PATH } from "@/lib/onlineOrder";
+import { OrderLocationMenu } from "@/components/OrderLocationMenu";
 
 const MENU_CATEGORIES = [
   {
@@ -109,12 +108,7 @@ export default function HomePage() {
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button size="lg" className="h-14 gap-2 rounded-full bg-ocean-900 px-8 text-white shadow-xl shadow-ocean-900/20 hover:bg-ocean-800" asChild>
-                <Link to={ORDER_SELECTION_PATH}>
-                  <ShoppingBag className="h-5 w-5" />
-                  Order Online
-                </Link>
-              </Button>
+              <OrderLocationMenu fullWidth className="sm:w-auto" />
               <Button
                 size="lg"
                 variant="outline"
@@ -185,9 +179,12 @@ export default function HomePage() {
           <span className="hidden h-px flex-1 bg-white/20 sm:block" />
           <span>Blacksburg: AYCE Temporarily Unavailable</span>
           <span className="hidden h-px flex-1 bg-white/20 sm:block" />
-          <Link to={ORDER_SELECTION_PATH} className="text-cyan-200 hover:text-white">
-            Choose Pickup
-          </Link>
+          <OrderLocationMenu
+            compact
+            menuAlign="right"
+            label="Choose Pickup"
+            buttonClassName="h-auto bg-transparent px-0 py-0 text-xs tracking-[0.18em] text-cyan-200 shadow-none hover:bg-transparent hover:text-white"
+          />
         </div>
       </section>
 
@@ -303,7 +300,7 @@ export default function HomePage() {
             <MapPin className="h-8 w-8 text-cyan-200" />
             <h2 className="mt-5 font-serif text-5xl font-black leading-tight tracking-[-0.035em]">Choose the right location first.</h2>
             <p className="mt-5 text-sm font-semibold leading-relaxed text-cyan-50/80">
-              Order Online opens a location choice page so customers do not accidentally land on the wrong store.
+              Order Online opens a quick location selector so customers can choose the correct store before leaving the website.
             </p>
           </div>
 
@@ -313,12 +310,7 @@ export default function HomePage() {
               <h3 className="mt-5 text-3xl font-black text-ocean-950">Christiansburg</h3>
               <p className="mt-2 text-sm font-semibold text-ocean-700">1635 N Franklin St, Christiansburg, VA 24073</p>
               <div className="mt-6 grid gap-3">
-                <Button className="rounded-full bg-ocean-900 text-white hover:bg-ocean-800" asChild>
-                  <Link to={ORDER_SELECTION_PATH}>
-                    <ShoppingBag className="mr-2 h-4 w-4" />
-                    Order / Details
-                  </Link>
-                </Button>
+                <OrderLocationMenu fullWidth buttonClassName="h-12 text-base" label="Order Online" />
                 <Button variant="outline" className="rounded-full border-ocean-700/20 text-ocean-900" asChild>
                   <a href="tel:+15407570888">
                     <Phone className="mr-2 h-4 w-4" />
@@ -333,12 +325,7 @@ export default function HomePage() {
               <h3 className="mt-5 text-3xl font-black text-ocean-950">Blacksburg</h3>
               <p className="mt-2 text-sm font-semibold text-ocean-700">1560 S Main St #116, Blacksburg, VA 24060</p>
               <div className="mt-6 grid gap-3">
-                <Button className="rounded-full bg-ocean-900 text-white hover:bg-ocean-800" asChild>
-                  <Link to={ORDER_SELECTION_PATH}>
-                    <ShoppingBag className="mr-2 h-4 w-4" />
-                    Order / Details
-                  </Link>
-                </Button>
+                <OrderLocationMenu fullWidth buttonClassName="h-12 text-base" label="Order Online" />
                 <Button variant="outline" className="rounded-full border-ocean-700/20 text-ocean-900" asChild>
                   <a href="tel:+15409510068">
                     <Phone className="mr-2 h-4 w-4" />

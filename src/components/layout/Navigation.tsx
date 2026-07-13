@@ -2,8 +2,8 @@ import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { Home, BookOpen, MapPin, Globe, ShoppingBag, Users, Instagram, Facebook } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { ORDER_SELECTION_PATH } from "@/lib/onlineOrder";
 import { SOCIAL_LINKS } from "@/lib/siteLinks";
+import { OrderLocationMenu } from "@/components/OrderLocationMenu";
 
 export function TopNav() {
   const [showLangMenu, setShowLangMenu] = useState(false);
@@ -64,13 +64,7 @@ export function TopNav() {
             Hiring
           </NavLink>
         </nav>
-        <NavLink
-          to={ORDER_SELECTION_PATH}
-          className="hidden items-center gap-2 rounded-full bg-ocean-900 px-4 py-2 text-sm font-extrabold text-white shadow-lg shadow-ocean-900/15 transition hover:bg-ocean-800 sm:inline-flex"
-        >
-          <ShoppingBag className="h-4 w-4" />
-          Order Online
-        </NavLink>
+        <OrderLocationMenu compact className="hidden sm:block" />
         <div className="relative hidden sm:block">
         <button 
           className="flex h-10 w-10 items-center justify-center rounded-full text-ocean-700 transition-colors hover:bg-ocean-50 hover:text-ocean-950"
@@ -115,7 +109,7 @@ export function BottomNav() {
   const navItems = [
     { name: "Home", path: "/", icon: Home },
     { name: "Menu", path: "/menu", icon: BookOpen },
-    { name: "Order", path: ORDER_SELECTION_PATH, icon: ShoppingBag },
+    { name: "Order", path: "order", icon: ShoppingBag },
     { name: "Locations", path: "/locations", icon: MapPin },
     { name: "Jobs", path: "/hiring", icon: Users },
   ];
@@ -124,9 +118,7 @@ export function BottomNav() {
     <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-ocean-900/10 bg-white/92 pb-safe pt-2 shadow-[0_-12px_32px_rgba(5,35,51,0.08)] backdrop-blur-md md:hidden">
       <div className="flex h-16 items-center justify-around px-2">
         {navItems.map((item) => {
-          const isActive =
-            location.pathname === item.path ||
-            (item.name === "Order" && location.pathname === "/locations");
+          const isActive = location.pathname === item.path;
           const Icon = item.icon;
           const classes = cn(
             "flex flex-1 flex-col items-center justify-center gap-1 transition-colors",
@@ -134,10 +126,22 @@ export function BottomNav() {
           );
 
           return (
-            <NavLink key={item.name} to={item.path} className={classes}>
-              <Icon className={cn("h-6 w-6", isActive && "fill-current")} strokeWidth={isActive ? 2.5 : 2} />
-              <span className="text-[10px] font-bold uppercase tracking-wider">{item.name}</span>
-            </NavLink>
+            item.name === "Order" ? (
+              <div key={item.name} className="flex flex-1 justify-center">
+                <OrderLocationMenu
+                  compact
+                  label="Order"
+                  menuAlign="center"
+                  menuPlacement="top"
+                  buttonClassName="h-auto flex-col gap-1 bg-transparent px-0 py-0 text-[10px] text-ocean-700 shadow-none hover:bg-transparent hover:text-ocean-900"
+                />
+              </div>
+            ) : (
+              <NavLink key={item.name} to={item.path} className={classes}>
+                <Icon className={cn("h-6 w-6", isActive && "fill-current")} strokeWidth={isActive ? 2.5 : 2} />
+                <span className="text-[10px] font-bold uppercase tracking-wider">{item.name}</span>
+              </NavLink>
+            )
           );
         })}
       </div>
