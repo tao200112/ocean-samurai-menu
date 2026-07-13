@@ -70,9 +70,9 @@ export default function MenuPage() {
   };
 
   return (
-    <div className="flex h-full min-w-0 flex-col overflow-x-hidden">
+    <div className="flex h-full min-w-0 flex-col overflow-x-hidden bg-[#f6fcfd] text-ocean-950">
       {/* Category Tabs */}
-      <div className="sticky top-[64px] z-40 border-b border-white/5 bg-background/95 backdrop-blur-md">
+      <div className="border-b border-ocean-900/10 bg-white/92 shadow-sm shadow-ocean-900/5 backdrop-blur-md">
         <div className="flex overflow-x-auto px-4 pb-0 pt-2 scrollbar-hide">
           <div className="flex gap-6">
             {CATEGORIES.map((cat) => (
@@ -91,8 +91,8 @@ export default function MenuPage() {
                 className={cn(
                   "flex flex-col items-center justify-center whitespace-nowrap border-b-2 pb-3 pt-1 text-sm font-bold tracking-wide transition-colors",
                   activeCategory === cat
-                    ? "border-primary text-primary"
-                    : "border-transparent text-muted-foreground hover:text-primary"
+                    ? "border-ocean-700 text-ocean-900"
+                    : "border-transparent text-ocean-700 hover:text-ocean-950"
                 )}
               >
                 {cat}
@@ -102,7 +102,7 @@ export default function MenuPage() {
         </div>
       </div>
 
-      <div className="space-y-6 p-4">
+      <div className="mx-auto w-full max-w-7xl space-y-6 p-4 sm:p-6">
         {/* Search and Filters */}
         <div>
           <div className="mb-4 relative">
@@ -114,10 +114,10 @@ export default function MenuPage() {
               placeholder="Search menu items..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full h-11 pl-11 pr-4 rounded-full bg-surface border border-white/10 text-sm text-white focus:outline-none focus:ring-1 focus:ring-primary/50 transition-all placeholder:text-slate-400 shadow-inner"
+              className="h-12 w-full rounded-full border border-ocean-900/10 bg-white pl-11 pr-4 text-sm font-semibold text-ocean-950 shadow-sm transition-all placeholder:text-ocean-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/30"
             />
           </div>
-          <h2 className="mb-3 text-xs font-bold uppercase tracking-widest text-primary">
+          <h2 className="mb-3 text-xs font-black uppercase tracking-widest text-cyan-700">
             Find Your Favorites
           </h2>
           <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
@@ -130,8 +130,8 @@ export default function MenuPage() {
                   className={cn(
                     "flex h-8 shrink-0 items-center justify-center rounded-full border px-4 text-xs font-semibold transition-colors",
                     isActive
-                      ? "bg-primary border-primary text-black"
-                      : "border-white/10 bg-surface text-muted-foreground hover:bg-primary/10 hover:text-primary"
+                      ? "border-ocean-900 bg-ocean-900 text-white"
+                      : "border-ocean-900/10 bg-white text-ocean-700 hover:bg-cyan-50 hover:text-ocean-950"
                   )}
                 >
                   {filter.label}
@@ -155,7 +155,7 @@ export default function MenuPage() {
             
             return (
               <Link to={`/menu/${item.id}`} key={item.id} className="block min-w-0 group">
-                <Card className="min-w-0 overflow-hidden border-white/5 bg-surface transition-all hover:border-primary/20">
+                <Card className="min-w-0 overflow-hidden border-ocean-900/10 bg-white shadow-sm shadow-ocean-900/5 transition-all hover:-translate-y-0.5 hover:border-cyan-500/30 hover:shadow-xl hover:shadow-ocean-900/10">
                   <div className="relative h-56 w-full overflow-hidden">
                     <div 
                       className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -167,9 +167,9 @@ export default function MenuPage() {
                           key={tag} 
                           className={cn(
                             "rounded-sm px-2 py-1 text-[10px] font-bold uppercase shadow-sm",
-                            tag === "Supreme" ? "bg-orange-500 text-black border border-orange-500" :
-                            tag === "Premium" ? "bg-primary text-black border border-primary" :
-                            tag === "Add-on" || tag === "Condiment" ? "bg-sky-500 text-black border border-sky-500" :
+                            tag === "Supreme" ? "bg-coral text-white border border-coral" :
+                            tag === "Premium" ? "bg-ocean-900 text-white border border-ocean-900" :
+                            tag === "Add-on" || tag === "Condiment" ? "bg-cyan-600 text-white border border-cyan-600" :
                             tag === "Raw" ? "bg-red-500 text-white" :
                             tag === "Spicy" ? "bg-orange-600 text-white" :
                             "bg-green-700 text-white"
@@ -182,24 +182,24 @@ export default function MenuPage() {
                   </div>
                   <div className="min-w-0 p-4 space-y-2">
                     <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                      <h3 className="min-w-0 break-words text-xl font-bold text-primary transition-colors group-hover:text-primary/80">{item.name}</h3>
-                      <span className="w-fit shrink-0 whitespace-nowrap rounded-md bg-primary/10 px-2 py-1 text-sm font-bold text-primary">
+                      <h3 className="min-w-0 break-words text-xl font-black text-ocean-950 transition-colors group-hover:text-cyan-700">{item.name}</h3>
+                      <span className="w-fit shrink-0 whitespace-nowrap rounded-md bg-cyan-50 px-2 py-1 text-sm font-black text-ocean-800">
                         {getTierLabel(item)}
                       </span>
                     </div>
-                    <p className="break-words text-sm leading-relaxed text-slate-300">
+                    <p className="break-words text-sm font-semibold leading-relaxed text-ocean-700">
                       {item.description_short}
                     </p>
                     {item.proteins && item.proteins.length > 0 && (
-                      <p className="text-xs italic text-muted-foreground break-words">
+                      <p className="break-words text-xs font-semibold italic text-ocean-600">
                         {item.proteins.map((i: string) => i.replace(/_/g, ' ')).join(', ')}
                       </p>
                     )}
                     <div className="flex justify-between items-center pt-2">
-                      <span className="text-xs font-semibold text-primary/60 tracking-wider uppercase">
+                      <span className="text-xs font-black uppercase tracking-wider text-cyan-700">
                         {item.category}
                       </span>
-                      <Button size="sm">Details</Button>
+                      <Button size="sm" className="rounded-full bg-ocean-900 text-white hover:bg-ocean-800">Details</Button>
                     </div>
                   </div>
                 </Card>
@@ -207,9 +207,9 @@ export default function MenuPage() {
             )
           })}
           {filteredItems.length === 0 && (
-            <div className="py-12 text-center text-muted-foreground">
+            <div className="py-12 text-center text-ocean-700">
               <p>No items found matching your filters.</p>
-              <Button variant="link" onClick={() => setActiveFilters([])} className="text-primary mt-2">
+              <Button variant="ghost" onClick={() => setActiveFilters([])} className="mt-2 text-ocean-900">
                 Clear Filters
               </Button>
             </div>

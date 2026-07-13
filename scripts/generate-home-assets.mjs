@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { access, mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const apiKey = process.env.NEWAPI_KEY;
@@ -62,9 +62,30 @@ const assets = [
     prompt:
       `All you can eat Japanese sushi and hibachi restaurant spread: many plates arranged like a lively table feast, sushi rolls, nigiri, appetizers, hibachi steak, hibachi chicken, shrimp tempura, fried rice, noodles, and mochi ice cream. Ocean blue accents, bright welcoming mood. ${sharedStyle}. Wide website section image.`,
   },
+  {
+    file: "location-order-table.png",
+    size: "1536x1024",
+    prompt:
+      `A welcoming Japanese restaurant pickup and dine-in website image: ocean blue table setting with sushi rolls, hibachi plate, chopsticks, soy sauce, and a small clean table number stand, bright casual restaurant atmosphere, no storefront, no logo, no readable text. ${sharedStyle}. Wide website section image with calm negative space.`,
+  },
+  {
+    file: "hiring-team-table.png",
+    size: "1536x1024",
+    prompt:
+      `A warm hiring page image for a Japanese sushi and hibachi restaurant: neatly set ocean blue dining table with sushi plates, order pad, apron folded beside chopsticks, welcoming service atmosphere, no people, no hands, no readable text, no logo. ${sharedStyle}. Wide website section image, polished but realistic.`,
+  },
 ];
 
 async function generate(asset) {
+  const outputPath = path.join(outputDir, asset.file);
+  try {
+    await access(outputPath);
+    console.log(`skipped ${asset.file}`);
+    return;
+  } catch {
+    // Generate missing assets.
+  }
+
   const body = {
     model: "gpt-image-2",
     prompt: asset.prompt,
@@ -99,7 +120,7 @@ async function generate(asset) {
     throw new Error(`${asset.file}: image response did not include b64_json or url`);
   }
 
-  await writeFile(path.join(outputDir, asset.file), buffer);
+  await writeFile(outputPath, buffer);
   console.log(`saved ${asset.file}`);
 }
 
