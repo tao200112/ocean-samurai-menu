@@ -1,288 +1,266 @@
-import { useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Utensils, Timer, Info, CheckCircle2, AlertCircle } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  Clock,
+  MapPin,
+  Phone,
+  ShoppingBag,
+  Sparkles,
+  Star,
+  Users,
+} from "lucide-react";
 import { Link } from "react-router-dom";
-import { cn } from "@/lib/utils";
-import menuData from "../../data/menu-completed.json";
-import categoriesData from "../../data/menu-categories.json";
+import { ORDER_SELECTION_PATH } from "@/lib/onlineOrder";
 
 const AYCE_TIERS = [
   {
-    id: "premium",
     name: "Premium",
     price: "$25.99",
-    description: "88 items with sushi, rolls, appetizers, hibachi, noodles, rice, and dessert."
+    count: "88 items",
+    description: "Sushi, rolls, appetizers, hibachi, noodles, rice, and dessert.",
   },
   {
-    id: "supreme",
     name: "Supreme",
     price: "$39.99",
-    description: "110 items, including Premium plus extra seafood, specialty rolls, and select hibachi items."
-  }
+    count: "110 items",
+    description: "Premium plus extra seafood, specialty rolls, and select hibachi items.",
+  },
 ];
 
-const AYCE_STEPS = [
-  {
-    title: "Two AYCE Tiers",
-    description: "The whole party must order the same priced AYCE course.",
-    icon: Utensils
-  },
-  {
-    title: "100-Minute Dining",
-    description: "Your AYCE time starts with your first order.",
-    icon: Timer
-  },
-  {
-    title: "4 Items at a Time",
-    description: "Only 4 items will be served per person at a time.",
-    icon: CheckCircle2
-  },
-  {
-    title: "Finish What You Order",
-    description: "Unfinished food will be charged at menu prices.",
-    icon: AlertCircle
-  }
+const MENU_LINKS = [
+  { name: "Sushi & Rolls", note: "Classic and specialty rolls", to: "/menu?category=Classic%20Rolls" },
+  { name: "Nigiri & Sashimi", note: "Raw and cooked selections", to: "/menu?category=Nigiri%20%26%20Sashimi" },
+  { name: "Hibachi", note: "Chicken, steak, shrimp, scallop", to: "/menu?category=Hibachi" },
+  { name: "Appetizers", note: "Hot starters and salads", to: "/menu?category=Appetizers" },
 ];
 
-const DINING_POLICIES = [
-  "Time limit: 100 minutes, starting with the first order.",
-  "Last call: 20 minutes prior to the time limit.",
-  "Only 4 items will be served per person at a time.",
-  "Whole party must order the same priced all you can eat course.",
-  "Unfinished food will be charged at menu prices.",
-  "Some substitutions will have a surcharge; please ask your server or manager before making requests.",
-  "Last seating is 90 minutes before closing time.",
-  "Other rules and restrictions may apply.",
-  "18% gratuity will be added to parties of 5 or more.",
-  "Please advise us of any food allergies or diets.",
-  "Consuming raw or undercooked items may increase the risk of foodborne illness."
+const SERVICE_POINTS = [
+  "100-minute AYCE dining",
+  "Last call 20 minutes prior",
+  "Clear labels for raw, spicy, vegetarian, allergens, ingredients, and sauces",
 ];
 
 export default function HomePage() {
-  const popularPicks = useMemo(() => {
-    // Select rolls (Classic Roll, Specialty Roll, etc.)
-    const rolls = menuData.filter((item: any) => item.category.toLowerCase().includes("roll") && item.name && item.description_short);
-    // Shuffle and pick 3
-    const shuffled = [...rolls].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3).map((item: any) => ({
-      id: item.id,
-      name: item.name,
-      desc: item.description_short,
-      image: item.image?.main || "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop",
-      tag: (item.spice_level || 0) > 0 ? "SPICY" : item.is_raw ? "RAW" : "CHEF'S PICK",
-      tagColor: (item.spice_level || 0) > 0 ? "bg-orange-500 text-white" : item.is_raw ? "bg-red-500 text-white" : "bg-primary text-black"
-    }));
-  }, []);
-
-  const getCategoryFallbackImage = (categoryName: string) => {
-    const name = categoryName.toLowerCase();
-    if (name.includes("roll") || name.includes("sushi")) return "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop";
-    if (name.includes("nigiri") || name.includes("sashimi")) return "https://images.unsplash.com/photo-1534482421-64566f976cfa?q=80&w=1926&auto=format&fit=crop";
-    if (name.includes("appetizer") || name.includes("soup") || name.includes("salad")) return "https://images.unsplash.com/photo-1547496614-411a0179f82d?q=80&w=2070&auto=format&fit=crop";
-    if (name.includes("hibachi") || name.includes("teriyaki") || name.includes("entree") || name.includes("bento")) return "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?q=80&w=2080&auto=format&fit=crop";
-    if (name.includes("noodle") || name.includes("rice")) return "https://images.unsplash.com/photo-1552611052-3ba9d739a503?q=80&w=2080&auto=format&fit=crop";
-    if (name.includes("dessert")) return "https://images.unsplash.com/photo-1553452118-621e1f860f43?q=80&w=1974&auto=format&fit=crop";
-    return "https://images.unsplash.com/photo-1617196034096-16408bb58eae?q=80&w=1974&auto=format&fit=crop";
-  };
-
   return (
-    <div className="space-y-0 bg-[#0f0f13]">
-      {/* Hero Section */}
-      <section className="relative h-[560px] w-full overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ 
-            backgroundImage: `linear-gradient(to top, #0f0f13 0%, rgba(15, 15, 19, 0.4) 50%, rgba(15, 15, 19, 0.2) 100%), url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=2070&auto=format&fit=crop')` 
+    <div className="bg-[#0d0d10] text-white">
+      <section className="relative isolate overflow-hidden border-b border-white/5">
+        <div className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_82%_18%,rgba(55,139,155,0.18),transparent_24%),radial-gradient(circle_at_20%_18%,rgba(212,175,53,0.13),transparent_32%),linear-gradient(135deg,#0d0d10_0%,#11100d_44%,#211e13_100%)]" />
+        <div
+          className="absolute right-0 top-0 -z-10 hidden h-full w-[48%] opacity-55 lg:block"
+          style={{
+            backgroundImage:
+              "linear-gradient(90deg, #0d0d10 0%, rgba(13,13,16,0.55) 34%, rgba(13,13,16,0.28) 100%), url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1600&auto=format&fit=crop')",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
           }}
         />
-        <div className="absolute inset-x-0 bottom-0 p-6 space-y-5 pb-12 bg-gradient-to-t from-[#0f0f13] via-[#0f0f13]/80 to-transparent">
-          <span className="inline-block rounded-sm bg-primary/20 px-3 py-1 text-xs font-bold uppercase tracking-widest text-primary backdrop-blur-md border border-primary/20">
-            Ocean Samurai
-          </span>
-          <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight text-white max-w-sm">
-            All You Can Eat Sushi & Hibachi
-          </h2>
-          <p className="text-base sm:text-lg text-slate-300 max-w-md leading-relaxed">
-            Choose Premium or Supreme, explore your favorites, and enjoy 100 minutes of AYCE dining.
-          </p>
-          <p className="flex flex-wrap gap-x-4 gap-y-1 text-xl sm:text-2xl font-bold tracking-wide text-primary">
-            <span>Premium $25.99</span>
-            <span>Supreme $39.99</span>
-          </p>
-          <div className="flex flex-col sm:flex-row flex-wrap gap-3 pt-4">
-            <Button className="w-full sm:w-auto h-14 px-8 font-bold text-black text-lg shadow-xl shadow-primary/20" asChild>
-              <Link to="/menu">View Menu</Link>
-            </Button>
-            <Button variant="outline" className="w-full sm:w-auto h-14 px-8 bg-black/40 border-primary/40 text-white hover:bg-black/60 text-lg backdrop-blur-md" asChild>
-              <Link to="/locations">Get Location</Link>
-            </Button>
-            <Button variant="outline" className="w-full sm:w-auto h-14 px-8 bg-black/40 border-primary/40 text-white hover:bg-black/60 text-lg backdrop-blur-md" asChild>
-              <Link to="/guide">AYCE Guide</Link>
-            </Button>
+
+        <div className="mx-auto grid min-h-[760px] max-w-7xl gap-10 px-6 py-16 sm:px-8 lg:grid-cols-[0.72fr_0.28fr] lg:py-24">
+          <div className="flex max-w-4xl flex-col justify-center">
+            <div className="mb-10 grid gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-primary sm:grid-cols-4 sm:items-center">
+              <span className="font-mono">AYCE</span>
+              <span className="hidden h-px bg-primary/30 sm:block" />
+              <span className="font-mono">Sushi</span>
+              <span className="font-mono">Hibachi</span>
+            </div>
+
+            <p className="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.2em] text-primary">
+              <Sparkles className="h-4 w-4" />
+              Japanese Hibachi & Sushi Bar
+            </p>
+
+            <h1 className="flex max-w-4xl flex-wrap gap-x-5 font-serif text-[clamp(3.8rem,11vw,8.5rem)] font-extrabold leading-[0.85] tracking-[-0.055em] text-white">
+              <span>Ocean</span>
+              <span>Samurai</span>
+            </h1>
+
+            <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_0.62fr] lg:items-end">
+              <p className="max-w-2xl text-xl leading-relaxed text-slate-200 sm:text-2xl">
+                All-you-can-eat sushi and hibachi, fresh rolls, hot kitchen favorites, and pickup ordering for two local stores.
+              </p>
+              <div className="rounded-2xl border border-white/10 bg-black/30 p-5 backdrop-blur">
+                <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">Today</p>
+                <p className="mt-2 text-sm leading-relaxed text-slate-300">
+                  AYCE is available in Christiansburg. Temporarily unavailable in Blacksburg; regular online ordering remains available.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+              <Button size="lg" className="h-14 gap-2 rounded-full px-8 text-black" asChild>
+                <Link to={ORDER_SELECTION_PATH}>
+                  <ShoppingBag className="h-5 w-5" />
+                  Order Online
+                </Link>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="h-14 rounded-full border-white/20 bg-white/[0.03] px-8 text-white hover:bg-white/10"
+                asChild
+              >
+                <Link to="/menu">View Menu</Link>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="h-14 rounded-full border-white/20 bg-white/[0.03] px-8 text-white hover:bg-white/10"
+                asChild
+              >
+                <Link to="/locations">Locations</Link>
+              </Button>
+            </div>
           </div>
-          <p className="text-[10px] text-white/50 uppercase tracking-widest mt-6">
-            * Whole party must order the same priced AYCE course
-          </p>
+
+          <aside className="grid content-end gap-4 lg:pb-10">
+            {AYCE_TIERS.map((tier) => (
+              <div key={tier.name} className="rounded-3xl border border-white/10 bg-[#211f16]/85 p-5 shadow-2xl backdrop-blur">
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">{tier.name}</p>
+                    <p className="mt-3 text-4xl font-black text-white">{tier.price}</p>
+                  </div>
+                  <span className="rounded-full border border-primary/30 px-3 py-1 font-mono text-[11px] uppercase tracking-[0.16em] text-primary">
+                    {tier.count}
+                  </span>
+                </div>
+                <p className="mt-4 text-sm leading-relaxed text-slate-400">{tier.description}</p>
+              </div>
+            ))}
+          </aside>
         </div>
       </section>
 
-      {/* AYCE Tiers */}
-      <section className="px-6 py-10">
-        <h3 className="mb-6 text-xs font-bold uppercase tracking-[0.2em] text-primary/80">
-          Choose Your Experience
-        </h3>
-        <div className="flex flex-col sm:flex-row gap-6">
-          {AYCE_TIERS.map((tier) => (
-            <Card key={tier.id} className="flex-1 overflow-hidden border-white/5 bg-surface/50 backdrop-blur transition-all hover:border-white/20">
-              <div className="p-6 h-full flex flex-col">
-                <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-                  <h4 className="text-2xl font-bold text-white tracking-tight">{tier.name}</h4>
-                  <span className="text-xl font-extrabold text-primary">{tier.price}</span>
+      <section className="border-b border-white/5 bg-[#15140f] px-6 py-5">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 font-mono text-xs uppercase tracking-[0.18em] text-slate-300 sm:flex-row sm:items-center sm:justify-between">
+          <span>Christiansburg: AYCE Available</span>
+          <span className="hidden h-px flex-1 bg-white/10 sm:block" />
+          <span>Blacksburg: AYCE Temporarily Unavailable</span>
+          <span className="hidden h-px flex-1 bg-white/10 sm:block" />
+          <Link to={ORDER_SELECTION_PATH} className="text-primary hover:text-primary/80">
+            Choose pickup location
+          </Link>
+        </div>
+      </section>
+
+      <section className="px-6 py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.85fr_1.15fr]">
+          <div>
+            <p className="font-mono text-xs uppercase tracking-[0.24em] text-primary">Experience</p>
+            <h2 className="mt-4 max-w-xl font-serif text-5xl font-extrabold leading-tight tracking-[-0.035em] text-white">
+              A menu built for scanning before you sit down.
+            </h2>
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-slate-400">
+              The menu stays functional, but the website now behaves like a restaurant front door: order, visit, browse, or apply in one clear path.
+            </p>
+            <div className="mt-7 space-y-3">
+              {SERVICE_POINTS.map((point) => (
+                <div key={point} className="flex gap-3 text-sm leading-relaxed text-slate-300">
+                  <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
+                  <span>{point}</span>
                 </div>
-                <p className="text-sm text-slate-300 leading-relaxed mb-8 flex-grow">
-                  {tier.description}
-                </p>
-                <Button variant="secondary" className="w-full gap-2 bg-white/5 font-bold text-white hover:bg-white/10" asChild>
-                  <Link to={`/guide#${tier.id}`}>
-                    Explore {tier.name}
-                    <ArrowRight className="h-4 w-4" />
+              ))}
+            </div>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2">
+            {MENU_LINKS.map((item, index) => (
+              <Link
+                key={item.name}
+                to={item.to}
+                className="group relative min-h-44 overflow-hidden rounded-3xl border border-white/10 bg-[#211f16] p-6 transition hover:-translate-y-1 hover:border-primary/40 hover:bg-[#292619]"
+              >
+                <span className="font-mono text-xs text-primary">0{index + 1}</span>
+                <h3 className="mt-8 text-2xl font-extrabold text-white">{item.name}</h3>
+                <p className="mt-2 text-sm text-slate-400">{item.note}</p>
+                <ArrowRight className="absolute bottom-6 right-6 h-5 w-5 text-primary transition group-hover:translate-x-1" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-white/5 bg-white/[0.025] px-6 py-20">
+        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.7fr_1.3fr]">
+          <div>
+            <p className="font-mono text-xs uppercase tracking-[0.24em] text-primary">Visit</p>
+            <h2 className="mt-4 font-serif text-5xl font-extrabold leading-tight tracking-[-0.035em] text-white">
+              Two locations. One Ocean Samurai.
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-slate-400">
+              Pick the right store before ordering online, or call ahead before your visit.
+            </p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            <Card className="border-white/5 bg-surface p-6">
+              <div className="mb-5 flex items-center justify-between gap-3">
+                <h3 className="text-2xl font-extrabold text-white">Christiansburg</h3>
+                <span className="rounded-full border border-primary/40 bg-primary/10 px-3 py-1 text-xs font-bold uppercase text-primary">
+                  AYCE
+                </span>
+              </div>
+              <p className="text-sm text-slate-400">1635 N Franklin St, Christiansburg, VA 24073</p>
+              <div className="mt-6 grid gap-2">
+                <Button className="gap-2 text-black" asChild>
+                  <Link to={ORDER_SELECTION_PATH}>
+                    <ShoppingBag className="h-4 w-4" />
+                    Choose Location
                   </Link>
+                </Button>
+                <Button variant="outline" className="gap-2" asChild>
+                  <a href="tel:+15407570888">
+                    <Phone className="h-4 w-4" />
+                    Call Store
+                  </a>
                 </Button>
               </div>
             </Card>
-          ))}
-        </div>
-      </section>
 
-      {/* How It Works */}
-      <section className="px-6 py-10 bg-white/[0.02] border-y border-white/5">
-        <h3 className="mb-8 text-xs font-bold uppercase tracking-[0.2em] text-primary/80">
-          How AYCE Works
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {AYCE_STEPS.map((step, i) => (
-            <Card key={i} className="flex items-start gap-4 border-white/5 bg-transparent p-5 shadow-none hover:bg-white/[0.02] transition-colors rounded-xl">
-              <div className="p-2 rounded-full bg-primary/10 border border-primary/20 shrink-0">
-                <step.icon className="h-5 w-5 text-primary" />
+            <Card className="border-white/5 bg-surface p-6">
+              <div className="mb-5 flex items-center justify-between gap-3">
+                <h3 className="text-2xl font-extrabold text-white">Blacksburg</h3>
+                <span className="rounded-full border border-orange-400/40 bg-orange-400/10 px-3 py-1 text-xs font-bold uppercase text-orange-300">
+                  No AYCE
+                </span>
               </div>
-              <div className="pt-0.5">
-                <h5 className="font-bold text-white mb-1 tracking-wide">{step.title}</h5>
-                <p className="text-sm text-slate-400 leading-relaxed">{step.description}</p>
+              <p className="text-sm text-slate-400">1560 S Main St #116, Blacksburg, VA 24060</p>
+              <div className="mt-6 grid gap-2">
+                <Button className="gap-2 text-black" asChild>
+                  <Link to={ORDER_SELECTION_PATH}>
+                    <ShoppingBag className="h-4 w-4" />
+                    Choose Location
+                  </Link>
+                </Button>
+                <Button variant="outline" className="gap-2" asChild>
+                  <a href="tel:+15409510068">
+                    <Phone className="h-4 w-4" />
+                    Call Store
+                  </a>
+                </Button>
               </div>
             </Card>
-          ))}
+          </div>
         </div>
       </section>
 
-      {/* Dining Policies */}
-      <section className="px-6 py-12">
-        <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 sm:p-8 backdrop-blur-sm relative overflow-hidden">
-          {/* Decorative element */}
-          <div className="absolute top-0 right-0 p-8 opacity-5">
-             <AlertCircle className="w-48 h-48 text-primary" />
-          </div>
-
-          <div className="relative z-10">
-            <div className="flex items-center gap-3 mb-8">
-              <Info className="h-6 w-6 text-primary" />
-              <h3 className="text-sm font-bold uppercase tracking-[0.1em] text-white">
-                Important Dining Policies
-              </h3>
+      <section className="px-6 py-16">
+        <div className="mx-auto flex max-w-7xl flex-col gap-5 rounded-[2rem] border border-white/5 bg-[#211f16] p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+          <div>
+            <div className="flex items-center gap-2 text-primary">
+              <Users className="h-5 w-5" />
+              <p className="font-mono text-xs uppercase tracking-[0.22em]">Now Hiring</p>
             </div>
-            <ul className="space-y-4">
-              {DINING_POLICIES.map((policy, i) => (
-                <li key={i} className="flex gap-4 text-sm text-slate-300 leading-relaxed items-start">
-                  <span className="text-primary mt-1 shrink-0">-</span>
-                  <span className="min-w-0 break-words">{policy}</span>
-                </li>
-              ))}
-            </ul>
+            <h2 className="mt-3 text-2xl font-extrabold text-white">Join the Ocean Samurai team.</h2>
           </div>
-        </div>
-      </section>
-
-      {/* Popular Picks */}
-      <section className="pt-4 pb-12">
-        <div className="mb-8 flex flex-col px-6 space-y-2">
-          <h3 className="text-2xl font-bold text-white tracking-tight">Popular Picks</h3>
-          <p className="text-sm text-slate-400">Start with guest favorites from our sushi and hibachi menu.</p>
-        </div>
-        <div className="flex gap-5 overflow-x-auto px-6 pb-6 scrollbar-hide snap-x">
-          {popularPicks.map((item, i) => (
-            <Link to={`/menu/${item.id}`} key={i} className="group flex-none w-72 space-y-4 snap-start">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-surface/50 border border-white/5">
-                {item.image ? (
-                  <img 
-                    src={item.image} 
-                    alt={item.name}
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      const fallback = "https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1925&auto=format&fit=crop";
-                      if (target.src !== fallback) {
-                        target.src = fallback;
-                      }
-                    }}
-                  />
-                ) : (
-                  <div className="h-full w-full flex items-center justify-center bg-white/5">
-                    <Utensils className="h-8 w-8 text-white/20" />
-                  </div>
-                )}
-                {item.tag && (
-                  <div className={cn("absolute right-3 top-3 rounded-sm px-2 py-1 text-[10px] font-bold tracking-wider shadow-lg", item.tagColor)}>
-                    {item.tag}
-                  </div>
-                )}
-              </div>
-              <div className="px-1">
-                <h5 className="font-bold text-lg text-white mb-1 group-hover:text-primary transition-colors">{item.name}</h5>
-                <p className="text-sm text-slate-400 leading-relaxed">{item.desc || ""}</p>
-              </div>
+          <Button variant="outline" size="lg" className="gap-2 rounded-full" asChild>
+            <Link to="/hiring">
+              View Jobs
+              <ArrowRight className="h-5 w-5" />
             </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Categories */}
-      <section className="px-6 py-10 bg-white/[0.02] border-t border-white/5">
-        <h3 className="mb-6 text-xs font-bold uppercase tracking-[0.2em] text-primary/80">
-          Browse Categories
-        </h3>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
-          {categoriesData.filter(c => c.display_name !== "Dessert").map((cat) => (
-            <Link to={`/menu?category=${encodeURIComponent(cat.display_name)}`} key={cat.id} className="relative flex h-28 sm:h-32 items-center justify-center overflow-hidden rounded-xl bg-surface/50 border border-white/5 group">
-              <div 
-                className="absolute inset-0 bg-cover bg-center opacity-50 transition-all duration-500 group-hover:opacity-40 group-hover:scale-105"
-                style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('${getCategoryFallbackImage(cat.display_name)}')` }}
-              />
-              <span className="relative text-sm sm:text-base font-bold tracking-widest text-white text-center px-4 group-hover:text-primary transition-colors uppercase z-10">
-                {cat.display_name}
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Final CTA */}
-      <section className="px-6 py-16 sm:py-24 text-center relative overflow-hidden">
-        {/* Subtle background glow */}
-        <div className="absolute inset-0 bg-primary/5 blur-3xl opacity-50" />
-        
-        <div className="relative z-10">
-          <h2 className="text-3xl font-extrabold text-white mb-4 tracking-tight">Ready to Explore?</h2>
-          <p className="text-slate-300 text-base mb-10 leading-relaxed max-w-sm mx-auto">
-            Browse our AYCE selections, compare Premium and Supreme, and plan your next visit.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto justify-center">
-            <Button size="lg" className="w-full sm:w-auto font-bold text-black px-8 h-14" asChild>
-              <Link to="/menu">View Full Menu</Link>
-            </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto font-bold bg-surface text-white hover:bg-white/5 border-white/10 h-14 px-8" asChild>
-              <Link to="/guide">Read AYCE Guide</Link>
-            </Button>
-          </div>
+          </Button>
         </div>
       </section>
     </div>

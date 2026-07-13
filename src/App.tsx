@@ -10,6 +10,7 @@ import MenuPage from "./pages/Menu";
 import LocationsPage from "./pages/Locations";
 import GuidePage from "./pages/Guide";
 import ItemDetailPage from "./pages/ItemDetail";
+import HiringPage from "./pages/Hiring";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/menu" element={<MenuPage />} />
           <Route path="/locations" element={<LocationsPage />} />
           <Route path="/guide" element={<GuidePage />} />
+          <Route path="/hiring" element={<HiringPage />} />
           <Route path="/menu/:id" element={<ItemDetailPage />} />
         </Route>
       </Routes>
