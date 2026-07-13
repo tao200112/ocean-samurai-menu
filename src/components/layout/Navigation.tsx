@@ -12,11 +12,11 @@ export function TopNav() {
   const languages = ["English", "Chinese", "Spanish"];
 
   return (
-    <header className="sticky top-0 z-50 flex items-center justify-between gap-3 border-b border-white/5 bg-[#18170f]/95 px-4 py-3 backdrop-blur-md">
+    <header className="sticky top-0 z-50 flex items-center justify-between gap-3 border-b border-ocean-900/10 bg-white/88 px-4 py-3 shadow-sm shadow-ocean-900/5 backdrop-blur-md">
       <div className="flex min-w-0 items-center gap-3">
         {/* Logo Image */}
-        <img src="/logo.png" alt="Ocean Samurai Logo" className="h-10 w-10 object-contain rounded-full shadow-[0_0_15px_rgba(56,189,248,0.2)]" />
-        <h1 className="truncate text-xl font-black uppercase tracking-[0.12em] text-white">
+        <img src="/logo.png" alt="Ocean Samurai Logo" className="h-10 w-10 rounded-full object-contain shadow-[0_0_18px_rgba(24,167,201,0.2)]" />
+        <h1 className="truncate text-xl font-black uppercase tracking-[0.12em] text-ocean-950">
           Ocean Samurai
         </h1>
       </div>
@@ -26,7 +26,7 @@ export function TopNav() {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "text-primary" : "text-slate-300 hover:text-primary")
+              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "bg-ocean-100 text-ocean-900" : "text-ocean-800 hover:bg-ocean-50 hover:text-ocean-950")
             }
           >
             Home
@@ -34,7 +34,7 @@ export function TopNav() {
           <NavLink
             to="/menu"
             className={({ isActive }) =>
-              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "text-primary" : "text-slate-300 hover:text-primary")
+              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "bg-ocean-100 text-ocean-900" : "text-ocean-800 hover:bg-ocean-50 hover:text-ocean-950")
             }
           >
             Menu
@@ -42,7 +42,7 @@ export function TopNav() {
           <NavLink
             to="/locations"
             className={({ isActive }) =>
-              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "text-primary" : "text-slate-300 hover:text-primary")
+              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "bg-ocean-100 text-ocean-900" : "text-ocean-800 hover:bg-ocean-50 hover:text-ocean-950")
             }
           >
             Locations
@@ -50,7 +50,7 @@ export function TopNav() {
           <NavLink
             to="/guide"
             className={({ isActive }) =>
-              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "text-primary" : "text-slate-300 hover:text-primary")
+              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "bg-ocean-100 text-ocean-900" : "text-ocean-800 hover:bg-ocean-50 hover:text-ocean-950")
             }
           >
             AYCE
@@ -58,7 +58,7 @@ export function TopNav() {
           <NavLink
             to="/hiring"
             className={({ isActive }) =>
-              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "text-primary" : "text-slate-300 hover:text-primary")
+              cn("rounded-full px-4 py-2 text-sm font-bold transition-colors", isActive ? "bg-ocean-100 text-ocean-900" : "text-ocean-800 hover:bg-ocean-50 hover:text-ocean-950")
             }
           >
             Hiring
@@ -66,14 +66,14 @@ export function TopNav() {
         </nav>
         <NavLink
           to={ORDER_SELECTION_PATH}
-          className="hidden items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-extrabold text-black shadow-lg shadow-primary/20 transition hover:bg-primary/90 sm:inline-flex"
+          className="hidden items-center gap-2 rounded-full bg-ocean-900 px-4 py-2 text-sm font-extrabold text-white shadow-lg shadow-ocean-900/15 transition hover:bg-ocean-800 sm:inline-flex"
         >
           <ShoppingBag className="h-4 w-4" />
           Order Online
         </NavLink>
         <div className="relative hidden sm:block">
         <button 
-          className="flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground hover:bg-white/5 hover:text-primary transition-colors"
+          className="flex h-10 w-10 items-center justify-center rounded-full text-ocean-700 transition-colors hover:bg-ocean-50 hover:text-ocean-950"
           onClick={() => setShowLangMenu(!showLangMenu)}
           aria-label="Change language"
         >
@@ -81,7 +81,7 @@ export function TopNav() {
         </button>
 
         {showLangMenu && (
-          <div className="absolute right-0 top-full mt-2 w-32 rounded-lg border border-white/10 bg-[#2a261a] shadow-xl overflow-hidden z-50">
+          <div className="absolute right-0 top-full z-50 mt-2 w-32 overflow-hidden rounded-lg border border-ocean-900/10 bg-white shadow-xl">
             <div className="py-1">
               {languages.map(lang => (
                 <button
@@ -93,8 +93,8 @@ export function TopNav() {
                   className={cn(
                     "block w-full text-left px-4 py-2.5 text-sm transition-colors",
                     currentLang === lang 
-                      ? "bg-primary/20 text-primary font-bold" 
-                      : "text-slate-300 hover:bg-white/5 hover:text-white"
+                      ? "bg-ocean-100 text-ocean-900 font-bold" 
+                      : "text-ocean-700 hover:bg-ocean-50 hover:text-ocean-950"
                   )}
                 >
                   {lang}
@@ -121,7 +121,7 @@ export function BottomNav() {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-white/5 bg-background/95 pb-safe pt-2 backdrop-blur-md md:hidden">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-ocean-900/10 bg-white/92 pb-safe pt-2 shadow-[0_-12px_32px_rgba(5,35,51,0.08)] backdrop-blur-md md:hidden">
       <div className="flex h-16 items-center justify-around px-2">
         {navItems.map((item) => {
           const isActive =
@@ -130,7 +130,7 @@ export function BottomNav() {
           const Icon = item.icon;
           const classes = cn(
             "flex flex-1 flex-col items-center justify-center gap-1 transition-colors",
-            isActive ? "text-primary" : "text-muted-foreground hover:text-primary/70"
+            isActive ? "text-ocean-900" : "text-ocean-700 hover:text-ocean-900"
           );
 
           return (
@@ -147,11 +147,11 @@ export function BottomNav() {
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-white/5 bg-[#18170f] px-6 pb-28 pt-10 md:pb-10">
+    <footer className="border-t border-ocean-900/10 bg-ocean-950 px-6 pb-28 pt-10 md:pb-10">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="font-serif text-2xl font-extrabold tracking-tight text-white">Ocean Samurai</p>
-          <p className="mt-2 text-sm text-slate-400">Japanese Hibachi & Sushi Bar</p>
+          <p className="mt-2 text-sm text-cyan-50/70">Japanese Hibachi & Sushi Bar</p>
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
@@ -159,7 +159,7 @@ export function SiteFooter() {
             href={SOCIAL_LINKS.instagramBlacksburg}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-slate-200 transition hover:border-primary/40 hover:text-primary"
+            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-cyan-50/80 transition hover:border-cyan-200/40 hover:text-cyan-100"
           >
             <Instagram className="h-4 w-4" />
             Blacksburg IG
@@ -168,7 +168,7 @@ export function SiteFooter() {
             href={SOCIAL_LINKS.instagramChristiansburg}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-slate-200 transition hover:border-primary/40 hover:text-primary"
+            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-cyan-50/80 transition hover:border-cyan-200/40 hover:text-cyan-100"
           >
             <Instagram className="h-4 w-4" />
             Christiansburg IG
@@ -177,7 +177,7 @@ export function SiteFooter() {
             href={SOCIAL_LINKS.facebookBlacksburg}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-slate-200 transition hover:border-primary/40 hover:text-primary"
+            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-cyan-50/80 transition hover:border-cyan-200/40 hover:text-cyan-100"
           >
             <Facebook className="h-4 w-4" />
             Blacksburg FB
@@ -186,14 +186,14 @@ export function SiteFooter() {
             href={SOCIAL_LINKS.facebookChristiansburg}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-slate-200 transition hover:border-primary/40 hover:text-primary"
+            className="inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 px-4 text-sm font-bold text-cyan-50/80 transition hover:border-cyan-200/40 hover:text-cyan-100"
           >
             <Facebook className="h-4 w-4" />
             Christiansburg FB
           </a>
           <NavLink
             to="/hiring"
-            className="inline-flex h-11 items-center gap-2 rounded-xl bg-primary px-4 text-sm font-extrabold text-black transition hover:bg-primary/90"
+            className="inline-flex h-11 items-center gap-2 rounded-xl bg-coral px-4 text-sm font-extrabold text-white transition hover:bg-coral/90"
           >
             <Users className="h-4 w-4" />
             Hiring

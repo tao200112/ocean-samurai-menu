@@ -6,15 +6,25 @@
 @source not "../node_modules/**";
 
 @theme {
-  --color-primary: #d4af35;
-  --color-primary-foreground: #201d12;
-  --color-background: #201d12;
-  --color-background-light: #2a261a;
-  --color-surface: #2a261a;
-  --color-surface-foreground: #f8f7f6;
-  --color-muted: #433d28;
-  --color-muted-foreground: #a1a1aa;
-  --color-accent: #c3b998;
+  --color-primary: #087fa3;
+  --color-primary-foreground: #ffffff;
+  --color-background: #eaf8fb;
+  --color-background-light: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-foreground: #07384e;
+  --color-muted: #d8f4fa;
+  --color-muted-foreground: #476879;
+  --color-accent: #ff6b3d;
+  --color-coral: #ff6b3d;
+  --color-ocean-50: #f1fbfd;
+  --color-ocean-100: #d8f4fa;
+  --color-ocean-200: #a9e4ef;
+  --color-ocean-500: #18a7c9;
+  --color-ocean-600: #087fa3;
+  --color-ocean-700: #076885;
+  --color-ocean-800: #07536d;
+  --color-ocean-900: #07384e;
+  --color-ocean-950: #052333;
   
   --font-sans: "Plus Jakarta Sans", sans-serif;
   --font-serif: "Fraunces", serif;
@@ -35,8 +45,8 @@ body::before {
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(circle at 18% 12%, rgba(212, 175, 53, 0.08), transparent 28%),
-    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0.018) 1px, transparent 1px, transparent 4px);
+    radial-gradient(circle at 18% 12%, rgba(24, 167, 201, 0.12), transparent 28%),
+    repeating-linear-gradient(90deg, rgba(5, 35, 51, 0.018), rgba(5, 35, 51, 0.018) 1px, transparent 1px, transparent 4px);
   mix-blend-mode: soft-light;
   opacity: 0.7;
 }
@@ -50,7 +60,90 @@ html,
 body,
 #root {
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+.ocean-hero {
+  background:
+    radial-gradient(circle at 14% 20%, rgba(255, 255, 255, 0.95), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(24, 167, 201, 0.32), transparent 30%),
+    linear-gradient(135deg, #f7fdff 0%, #d8f4fa 46%, #9edfec 100%);
+}
+
+.wave-field {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 20% 80%, rgba(255, 255, 255, 0.65), transparent 28%),
+    repeating-radial-gradient(ellipse at 85% 12%, rgba(7, 83, 109, 0.16) 0 2px, transparent 2px 18px);
+  mask-image: linear-gradient(120deg, transparent 0%, black 18%, black 82%, transparent 100%);
+  animation: ocean-drift 18s ease-in-out infinite alternate;
+}
+
+.hero-food-float {
+  animation: hero-float 7s ease-in-out infinite;
+}
+
+.menu-tide-card {
+  position: relative;
+  min-height: 22rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: #07384e;
+  box-shadow: 0 24px 60px rgba(5, 35, 51, 0.16);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.menu-tide-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 70px rgba(5, 35, 51, 0.24);
+}
+
+.sushi-rail-track {
+  animation: sushi-rail 38s linear infinite;
+}
+
+.sushi-rail:hover .sushi-rail-track {
+  animation-play-state: paused;
+}
+
+@keyframes ocean-drift {
+  from {
+    transform: translate3d(-1.5%, -1%, 0) scale(1);
+  }
+  to {
+    transform: translate3d(1.5%, 1%, 0) scale(1.03);
+  }
+}
+
+@keyframes hero-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-0.6deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(0.4deg);
+  }
+}
+
+@keyframes sushi-rail {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wave-field,
+  .hero-food-float,
+  .sushi-rail-track {
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
+  }
 }
 
 @utility scrollbar-hide {
