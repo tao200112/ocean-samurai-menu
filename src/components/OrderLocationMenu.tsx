@@ -17,13 +17,13 @@ const ORDER_LOCATIONS = [
   {
     name: "Christiansburg",
     address: "1635 N Franklin St",
-    note: "AYCE available",
+    note: "AYCE and à la carte options available",
     url: ONLINE_ORDER_LINKS.christiansburg,
   },
   {
     name: "Blacksburg",
     address: "1560 S Main St #116",
-    note: "AYCE temporarily unavailable",
+    note: "À la carte available, AYCE temporarily unavailable",
     url: ONLINE_ORDER_LINKS.blacksburg,
   },
 ];

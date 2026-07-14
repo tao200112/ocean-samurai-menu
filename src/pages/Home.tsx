@@ -3,8 +3,6 @@ import {
   ArrowRight,
   CheckCircle2,
   Clock,
-  MapPin,
-  Phone,
   ShipWheel,
   Sparkles,
   Users,
@@ -104,7 +102,7 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-lg font-semibold leading-relaxed text-ocean-800 sm:text-2xl">
-              Japanese hibachi, sushi, and all-you-can-eat favorites with a cleaner ordering path for Christiansburg and Blacksburg.
+              Japanese hibachi, sushi, and all-you-can-eat favorites served with a bright ocean-blue restaurant experience.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -130,18 +128,18 @@ export default function HomePage() {
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
               <div className="rounded-3xl border border-white/60 bg-white/65 p-4 shadow-sm backdrop-blur">
                 <Clock className="h-5 w-5 text-cyan-600" />
-                <p className="mt-3 text-sm font-black text-ocean-950">100 Minutes</p>
-                <p className="mt-1 text-xs font-semibold text-ocean-700">AYCE starts with first order.</p>
+                <p className="mt-3 text-sm font-black text-ocean-950">AYCE Dining</p>
+                <p className="mt-1 text-xs font-semibold text-ocean-700">Premium course with Supreme upgrade.</p>
               </div>
               <div className="rounded-3xl border border-white/60 bg-white/65 p-4 shadow-sm backdrop-blur">
                 <ShipWheel className="h-5 w-5 text-cyan-600" />
-                <p className="mt-3 text-sm font-black text-ocean-950">Two Stores</p>
-                <p className="mt-1 text-xs font-semibold text-ocean-700">Choose pickup location first.</p>
+                <p className="mt-3 text-sm font-black text-ocean-950">Fresh Sushi</p>
+                <p className="mt-1 text-xs font-semibold text-ocean-700">Rolls, nigiri, sashimi, and appetizers.</p>
               </div>
               <div className="rounded-3xl border border-white/60 bg-white/65 p-4 shadow-sm backdrop-blur">
                 <CheckCircle2 className="h-5 w-5 text-cyan-600" />
-                <p className="mt-3 text-sm font-black text-ocean-950">Clear Menu</p>
-                <p className="mt-1 text-xs font-semibold text-ocean-700">Ingredients, sauces, and labels.</p>
+                <p className="mt-3 text-sm font-black text-ocean-950">Hibachi</p>
+                <p className="mt-1 text-xs font-semibold text-ocean-700">Steak, chicken, shrimp, and rice plates.</p>
               </div>
             </div>
           </div>
@@ -153,38 +151,19 @@ export default function HomePage() {
               alt="Ocean Samurai sushi, hibachi, tempura, and rice spread on ocean blue plates"
               className="hero-food-float absolute right-0 top-0 h-full w-full rounded-[2.5rem] object-cover shadow-2xl shadow-ocean-900/25 ring-1 ring-white/70"
             />
-            <div className="absolute -bottom-6 left-5 right-5 rounded-[2rem] border border-white/60 bg-white/80 p-5 shadow-xl shadow-ocean-900/10 backdrop-blur">
-              <div className="grid gap-4 sm:grid-cols-2">
-                {AYCE_TIERS.map((tier) => (
-                  <div key={tier.name} className={tier.name === "Premium" ? "rounded-2xl bg-ocean-900 p-4 text-white" : "rounded-2xl bg-cyan-50 p-4 text-ocean-950"}>
-                    <div className="flex items-start justify-between gap-3">
-                      <div>
-                        <p className="text-xs font-black uppercase tracking-[0.16em] opacity-80">{tier.highlight}</p>
-                        <h2 className="mt-1 text-2xl font-black">{tier.name}</h2>
-                      </div>
-                      <p className="text-2xl font-black">{tier.price}</p>
-                    </div>
-                    <p className="mt-2 text-xs font-bold opacity-80">{tier.count} · 100 minutes</p>
-                  </div>
-                ))}
+            <div className="absolute -bottom-6 left-5 right-5 rounded-[2rem] border border-white/60 bg-white/85 p-5 shadow-xl shadow-ocean-900/10 backdrop-blur">
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Ocean Samurai</p>
+                  <p className="mt-1 text-lg font-black text-ocean-950">Sushi, hibachi, rolls, and pickup ordering.</p>
+                </div>
+                <Link to="/locations" className="inline-flex w-fit items-center gap-2 rounded-full bg-cyan-50 px-4 py-2 text-sm font-black text-ocean-900 hover:bg-cyan-100">
+                  Two Locations
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="border-y border-ocean-900/10 bg-ocean-950 px-5 py-4 text-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 text-xs font-black uppercase tracking-[0.18em] sm:flex-row sm:items-center sm:justify-between">
-          <span>Christiansburg: AYCE Available</span>
-          <span className="hidden h-px flex-1 bg-white/20 sm:block" />
-          <span>Blacksburg: AYCE Temporarily Unavailable</span>
-          <span className="hidden h-px flex-1 bg-white/20 sm:block" />
-          <OrderLocationMenu
-            compact
-            menuAlign="right"
-            label="Choose Pickup"
-            buttonClassName="h-auto bg-transparent px-0 py-0 text-xs tracking-[0.18em] text-cyan-200 shadow-none hover:bg-transparent hover:text-white"
-          />
         </div>
       </section>
 
@@ -233,10 +212,10 @@ export default function HomePage() {
           <div>
             <p className="text-xs font-black uppercase tracking-[0.24em] text-cyan-700">AYCE</p>
             <h2 className="mt-3 max-w-xl font-serif text-5xl font-black leading-tight tracking-[-0.035em] text-ocean-950 sm:text-6xl">
-              Keep Premium front and center.
+              Premium first, Supreme when you want more.
             </h2>
             <p className="mt-5 max-w-xl text-base font-semibold leading-relaxed text-ocean-800">
-              Supreme is available as an upgrade, but the homepage presentation keeps the regular Premium course as the easiest choice.
+              All You Can Eat is available at Christiansburg. Blacksburg currently offers regular online ordering while AYCE is paused.
             </p>
             <div className="mt-7 grid gap-3">
               {RULES.map((rule) => (
@@ -290,50 +269,6 @@ export default function HomePage() {
                 <img src={image} alt="" className="h-full w-full object-cover" />
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white px-5 py-20 sm:px-8">
-        <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-[0.75fr_1.25fr] lg:items-stretch">
-          <div className="rounded-[2rem] bg-ocean-900 p-8 text-white">
-            <MapPin className="h-8 w-8 text-cyan-200" />
-            <h2 className="mt-5 font-serif text-5xl font-black leading-tight tracking-[-0.035em]">Choose the right location first.</h2>
-            <p className="mt-5 text-sm font-semibold leading-relaxed text-cyan-50/80">
-              Order Online opens a quick location selector so customers can choose the correct store before leaving the website.
-            </p>
-          </div>
-
-          <div className="grid gap-5 md:grid-cols-2">
-            <div className="rounded-[2rem] border border-ocean-900/10 bg-cyan-50 p-6">
-              <span className="rounded-full bg-coral px-3 py-1 text-xs font-black uppercase tracking-[0.16em] text-white">AYCE Available</span>
-              <h3 className="mt-5 text-3xl font-black text-ocean-950">Christiansburg</h3>
-              <p className="mt-2 text-sm font-semibold text-ocean-700">1635 N Franklin St, Christiansburg, VA 24073</p>
-              <div className="mt-6 grid gap-3">
-                <OrderLocationMenu fullWidth buttonClassName="h-12 text-base" label="Order Online" />
-                <Button variant="outline" className="rounded-full border-ocean-700/20 text-ocean-900" asChild>
-                  <a href="tel:+15407570888">
-                    <Phone className="mr-2 h-4 w-4" />
-                    Call Store
-                  </a>
-                </Button>
-              </div>
-            </div>
-
-            <div className="rounded-[2rem] border border-ocean-900/10 bg-[#f3fbfd] p-6">
-              <span className="rounded-full bg-ocean-700 px-3 py-1 text-xs font-black uppercase tracking-[0.16em] text-white">AYCE Temporarily Unavailable</span>
-              <h3 className="mt-5 text-3xl font-black text-ocean-950">Blacksburg</h3>
-              <p className="mt-2 text-sm font-semibold text-ocean-700">1560 S Main St #116, Blacksburg, VA 24060</p>
-              <div className="mt-6 grid gap-3">
-                <OrderLocationMenu fullWidth buttonClassName="h-12 text-base" label="Order Online" />
-                <Button variant="outline" className="rounded-full border-ocean-700/20 text-ocean-900" asChild>
-                  <a href="tel:+15409510068">
-                    <Phone className="mr-2 h-4 w-4" />
-                    Call Store
-                  </a>
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
       </section>
