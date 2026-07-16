@@ -1,5 +1,5 @@
-import { useState, useMemo } from "react";
-import { Search } from "lucide-react";
+import { useState, useMemo, useEffect } from "react";
+import { Search, SlidersHorizontal, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -13,15 +13,27 @@ const FILTERS = [
   { label: "Supreme Only", key: "supreme" },
   { label: "No Raw Fish", key: "no_raw" },
   { label: "Vegetarian", key: "vegetarian" },
-  { label: "Spicy", key: "spicy" }
+  { label: "Spicy", key: "spicy" },
+  { label: "Gluten Free", key: "gluten_free" },
 ];
 
 export default function MenuPage() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState(searchParams.get("q") || "");
   const initialCategory = searchParams.get("category") || "All";
   const [activeCategory, setActiveCategory] = useState(CATEGORIES.includes(initialCategory) ? initialCategory : "All");
-  const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const initialFilters = (searchParams.get("filters") || "")
+    .split(",")
+    .filter((filter) => FILTERS.some((item) => item.key === filter));
+  const [activeFilters, setActiveFilters] = useState<string[]>(initialFilters);
+
+  useEffect(() => {
+    const nextParams = new URLSearchParams();
+    if (activeCategory !== "All") nextParams.set("category", activeCategory);
+    if (searchQuery.trim()) nextParams.set("q", searchQuery.trim());
+    if (activeFilters.length > 0) nextParams.set("filters", activeFilters.join(","));
+    setSearchParams(nextParams, { replace: true });
+  }, [activeCategory, activeFilters, searchQuery, setSearchParams]);
 
   const toggleFilter = (key: string) => {
     setActiveFilters(prev => 
@@ -42,11 +54,28 @@ export default function MenuPage() {
       if (activeFilters.includes("no_raw") && item.is_raw) return false;
       if (activeFilters.includes("vegetarian") && (!item.dietary_flags || !item.dietary_flags.includes("vegetarian"))) return false;
       if (activeFilters.includes("spicy") && (item.spice_level || 0) === 0) return false;
+      if (activeFilters.includes("gluten_free") && (!item.dietary_flags || !item.dietary_flags.includes("gluten_free"))) return false;
 
       // Search check
       if (searchQuery.trim() !== "") {
         const query = searchQuery.toLowerCase();
-        const searchMatch = item.name.toLowerCase().includes(query);
+        const searchableText = [
+          item.name,
+          item.display_name,
+          item.description_short,
+          item.description_long,
+          ...(item.ingredients_known || []),
+          ...(item.ingredients_inferred || []),
+          ...(item.proteins || []),
+          ...(item.vegetables || []),
+          ...(item.sauces || []),
+          ...(item.allergens || []),
+          ...(item.search_keywords || []),
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
+        const searchMatch = searchableText.includes(query);
         if (!searchMatch) return false;
       }
 
@@ -117,9 +146,10 @@ export default function MenuPage() {
               className="h-12 w-full rounded-full border border-ocean-900/10 bg-white pl-11 pr-4 text-sm font-semibold text-ocean-950 shadow-sm transition-all placeholder:text-ocean-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/30"
             />
           </div>
-          <h2 className="mb-3 text-xs font-black uppercase tracking-widest text-cyan-700">
-            Find Your Favorites
-          </h2>
+          <div className="mb-3 flex items-center gap-2 text-xs font-black uppercase tracking-widest text-cyan-700">
+            <SlidersHorizontal className="h-4 w-4" />
+            <h2>Find by dish, ingredient, or preference</h2>
+          </div>
           <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
             {FILTERS.map((filter) => {
               const isActive = activeFilters.includes(filter.key);
@@ -127,6 +157,7 @@ export default function MenuPage() {
                 <button
                   key={filter.key}
                   onClick={() => toggleFilter(filter.key)}
+                  aria-pressed={isActive}
                   className={cn(
                     "flex h-8 shrink-0 items-center justify-center rounded-full border px-4 text-xs font-semibold transition-colors",
                     isActive
@@ -138,6 +169,24 @@ export default function MenuPage() {
                 </button>
               );
             })}
+          </div>
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+            <p className="text-sm font-bold text-ocean-700" aria-live="polite">
+              Showing <span className="text-ocean-950">{filteredItems.length}</span> of {menuData.length} menu items
+            </p>
+            {(searchQuery.trim() || activeFilters.length > 0) && (
+              <button
+                type="button"
+                onClick={() => {
+                  setSearchQuery("");
+                  setActiveFilters([]);
+                }}
+                className="inline-flex items-center gap-1.5 text-sm font-black text-cyan-700 hover:text-ocean-950"
+              >
+                <X className="h-4 w-4" />
+                Clear search and filters
+              </button>
+            )}
           </div>
         </div>
 
@@ -199,7 +248,9 @@ export default function MenuPage() {
                       <span className="text-xs font-black uppercase tracking-wider text-cyan-700">
                         {item.category}
                       </span>
-                      <Button size="sm" className="rounded-full bg-ocean-900 text-white hover:bg-ocean-800">Details</Button>
+                      <span className="inline-flex h-9 items-center rounded-full bg-ocean-900 px-4 text-xs font-black text-white transition-colors group-hover:bg-ocean-800">
+                        Details
+                      </span>
                     </div>
                   </div>
                 </Card>
@@ -209,8 +260,15 @@ export default function MenuPage() {
           {filteredItems.length === 0 && (
             <div className="py-12 text-center text-ocean-700">
               <p>No items found matching your filters.</p>
-              <Button variant="ghost" onClick={() => setActiveFilters([])} className="mt-2 text-ocean-900">
-                Clear Filters
+              <Button
+                variant="ghost"
+                onClick={() => {
+                  setSearchQuery("");
+                  setActiveFilters([]);
+                }}
+                className="mt-2 text-ocean-900"
+              >
+                Clear Search and Filters
               </Button>
             </div>
           )}

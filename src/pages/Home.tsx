@@ -61,14 +61,6 @@ const AYCE_TIERS = [
   },
 ];
 
-const RULES = [
-  "100 minutes, starts with the first order.",
-  "Last call is 20 minutes prior to the time limit.",
-  "Only 4 items will be served per person at a time.",
-  "Whole party must order the same priced AYCE course.",
-  "Unfinished food will be charged at menu prices.",
-];
-
 const RAIL_IMAGES = [
   "/home/category-sushi-rolls.png",
   "/home/category-nigiri-sashimi.png",
@@ -92,17 +84,17 @@ export default function HomePage() {
               </span>
               <span className="inline-flex items-center gap-2 rounded-full bg-coral px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-white shadow-lg shadow-coral/25">
                 <Sparkles className="h-4 w-4" />
-                AYCE Christiansburg
+                Sushi + Hibachi
               </span>
             </div>
 
             <h1 className="max-w-4xl font-serif text-[clamp(4rem,12vw,9.2rem)] font-black leading-[0.82] tracking-[-0.055em] text-ocean-950">
-              Fresh rolls.
-              <span className="block text-ocean-600">Blue tide.</span>
+              From the grill.
+              <span className="block text-ocean-600">To the roll.</span>
             </h1>
 
             <p className="mt-7 max-w-2xl text-lg font-semibold leading-relaxed text-ocean-800 sm:text-2xl">
-              Japanese hibachi, sushi, and all-you-can-eat favorites served with a bright ocean-blue restaurant experience.
+              Japanese hibachi, sushi, sashimi, and rolls made for every kind of craving.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -212,18 +204,20 @@ export default function HomePage() {
           <div>
             <p className="text-xs font-black uppercase tracking-[0.24em] text-cyan-700">AYCE</p>
             <h2 className="mt-3 max-w-xl font-serif text-5xl font-black leading-tight tracking-[-0.035em] text-ocean-950 sm:text-6xl">
-              Premium first, Supreme when you want more.
+              Choose your way to dine.
             </h2>
             <p className="mt-5 max-w-xl text-base font-semibold leading-relaxed text-ocean-800">
-              All You Can Eat is available at Christiansburg. Blacksburg currently offers regular online ordering while AYCE is paused.
+              Choose Premium or Supreme AYCE in Christiansburg. Blacksburg currently offers regular à la carte ordering while AYCE is temporarily unavailable.
             </p>
-            <div className="mt-7 grid gap-3">
-              {RULES.map((rule) => (
-                <div key={rule} className="flex gap-3 rounded-2xl bg-white/70 p-4 text-sm font-bold text-ocean-900 shadow-sm backdrop-blur">
-                  <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-cyan-700" />
-                  <span>{rule}</span>
-                </div>
-              ))}
+            <div className="mt-7 grid gap-3 sm:grid-cols-2">
+              <div className="rounded-2xl bg-white/75 p-4 shadow-sm backdrop-blur">
+                <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Christiansburg</p>
+                <p className="mt-2 text-sm font-black text-ocean-950">AYCE and à la carte options available.</p>
+              </div>
+              <div className="rounded-2xl bg-white/75 p-4 shadow-sm backdrop-blur">
+                <p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-700">Blacksburg</p>
+                <p className="mt-2 text-sm font-black text-ocean-950">À la carte available. AYCE temporarily unavailable.</p>
+              </div>
             </div>
           </div>
 

@@ -1,13 +1,16 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, BookOpen, Info } from "lucide-react";
+import { ArrowLeft, BookOpen, Check, Info, Share2 } from "lucide-react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import menuData from "../../data/menu-completed.json";
 import { cn } from "@/lib/utils";
+import { OrderLocationMenu } from "@/components/OrderLocationMenu";
 
 export default function ItemDetailPage() {
   const navigate = useNavigate();
   const { id } = useParams();
   const item = menuData.find((i) => i.id === id);
+  const [shareState, setShareState] = useState<"idle" | "shared">("idle");
 
   if (!item) {
     return (
@@ -39,6 +42,28 @@ export default function ItemDetailPage() {
     : item.tier?.includes("add_on")
       ? item.category === "Condiments" ? "Condiment" : "Add-on"
       : "Premium Menu";
+
+  const handleShare = async () => {
+    const shareData = {
+      title: `${item.name} | Ocean Samurai`,
+      text: item.description_short,
+      url: window.location.href,
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(window.location.href);
+      }
+      setShareState("shared");
+      window.setTimeout(() => setShareState("idle"), 2200);
+    } catch (error) {
+      if ((error as DOMException).name !== "AbortError") {
+        setShareState("idle");
+      }
+    }
+  };
 
   return (
     <div className="bg-[#f6fcfd] px-5 py-6 text-ocean-950 sm:px-8 lg:py-10">
@@ -72,7 +97,18 @@ export default function ItemDetailPage() {
               </span>
             </div>
 
-            <h1 className="font-serif text-5xl font-black leading-tight tracking-[-0.035em] text-ocean-950">{item.name}</h1>
+            <div className="flex flex-wrap items-start justify-between gap-4">
+              <h1 className="font-serif text-5xl font-black leading-tight tracking-[-0.035em] text-ocean-950">{item.name}</h1>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleShare}
+                className="shrink-0 gap-2 rounded-full border-ocean-700/20 bg-white text-ocean-900 hover:bg-cyan-50"
+              >
+                {shareState === "shared" ? <Check className="h-4 w-4" /> : <Share2 className="h-4 w-4" />}
+                {shareState === "shared" ? "Link Copied" : "Share"}
+              </Button>
+            </div>
             <p className="mt-4 text-lg font-semibold leading-relaxed text-ocean-800">
               {item.description_long || item.description_short}
             </p>
@@ -135,12 +171,19 @@ export default function ItemDetailPage() {
               )}
             </div>
 
-            <Button variant="outline" className="mt-6 w-full gap-2 rounded-full border-ocean-700/20 bg-white text-ocean-900 hover:bg-cyan-50" asChild>
-              <Link to="/menu">
-                <BookOpen className="h-5 w-5" />
-                Return to Menu
-              </Link>
-            </Button>
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              <OrderLocationMenu
+                fullWidth
+                label="Order This Item"
+                buttonClassName="h-12 w-full rounded-full px-5 text-base"
+              />
+              <Button variant="outline" className="w-full gap-2 rounded-full border-ocean-700/20 bg-white text-ocean-900 hover:bg-cyan-50" asChild>
+                <Link to="/menu">
+                  <BookOpen className="h-5 w-5" />
+                  Return to Menu
+                </Link>
+              </Button>
+            </div>
           </div>
         </section>
       </div>

@@ -69,6 +69,11 @@ const LOCATIONS: Location[] = [
 const LocationCard: React.FC<{ loc: Location }> = ({ loc }) => {
   const [hoursOpen, setHoursOpen] = useState(false);
   const isPaused = loc.ayceTone === "paused";
+  const today = new Intl.DateTimeFormat("en-US", {
+    weekday: "long",
+    timeZone: "America/New_York",
+  }).format(new Date());
+  const todayHours = loc.hours.find((hours) => hours.day === today)?.time || "See store hours";
 
   return (
     <div className="overflow-hidden rounded-[2rem] border border-ocean-900/10 bg-white shadow-xl shadow-ocean-900/8">
@@ -130,14 +135,21 @@ const LocationCard: React.FC<{ loc: Location }> = ({ loc }) => {
 
         <div className="mt-5 rounded-2xl border border-ocean-900/10 bg-[#f6fcfd]">
           <button
+            type="button"
             onClick={() => setHoursOpen(!hoursOpen)}
             className="flex w-full items-center justify-between p-4 text-sm font-black text-ocean-950"
+            aria-expanded={hoursOpen}
           >
             <span className="flex items-center gap-2">
               <Clock className="h-4 w-4 text-cyan-700" />
               Store Hours
             </span>
-            <ChevronDown className={cn("h-4 w-4 text-ocean-700 transition-transform", hoursOpen && "rotate-180")} />
+            <span className="flex items-center gap-2">
+              <span className={cn("text-xs font-bold", todayHours === "Closed" ? "text-coral" : "text-ocean-700")}>
+                Today: {todayHours}
+              </span>
+              <ChevronDown className={cn("h-4 w-4 text-ocean-700 transition-transform", hoursOpen && "rotate-180")} />
+            </span>
           </button>
 
           {hoursOpen && (
